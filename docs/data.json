@@ -1,0 +1,6089 @@
+{
+  "generatedAt": "2026-07-08T22:25:48.940Z",
+  "repos": [
+    "microsoft/WinAppCli",
+    "microsoft/electron-on-windows-gallery",
+    "microsoft/WinAppVSCE"
+  ],
+  "releaseRepos": [
+    "microsoft/WinAppCli",
+    "microsoft/WinAppVSCE"
+  ],
+  "projectNumber": 2041,
+  "months": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06"
+  ],
+  "closedIssues": [
+    {
+      "title": "[Feature]: winapp manifest add-alias should have a flag that automatically adds or updates WinAppRunUseExecutionAlias prop",
+      "number": 520,
+      "url": "https://github.com/microsoft/winappCli/issues/520",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-30T20:47:46Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[VS Code] Support for Apps in Workspaces",
+      "number": 492,
+      "url": "https://github.com/microsoft/winappCli/issues/492",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-26T17:20:30Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "This repo is missing a LICENSE file",
+      "number": 1,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/1",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-06-23T23:02:40Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "This repo is missing important files",
+      "number": 3,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/3",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-06-22T21:55:28Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Flyouts/tooltips are hard to screen capture",
+      "number": 557,
+      "url": "https://github.com/microsoft/winappCli/issues/557",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-20T00:29:02Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": "July26"
+    },
+    {
+      "title": "[Bug]: Sign failed with certificate",
+      "number": 567,
+      "url": "https://github.com/microsoft/winappCli/issues/567",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-20T00:13:32Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: AppxManifest Visual Editor",
+      "number": 331,
+      "url": "https://github.com/microsoft/winappCli/issues/331",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-19T20:19:16Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Create \"winapp-screenshots\" directory for winapp ui screenshot",
+      "number": 468,
+      "url": "https://github.com/microsoft/winappCli/issues/468",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-18T17:37:12Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "winapp ui screenshot fails (IO_PathNotFound) when output parent directory doesn't exist — should create parent dirs",
+      "number": 572,
+      "url": "https://github.com/microsoft/winappCli/issues/572",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-17T18:36:30Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": "June26"
+    },
+    {
+      "title": "Manifest redundancy fixes",
+      "number": 574,
+      "url": "https://github.com/microsoft/winappCli/issues/574",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-12T18:51:26Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": "June26"
+    },
+    {
+      "title": "[Bug]: list-windows inconsistency, missing windows without a title",
+      "number": 570,
+      "url": "https://github.com/microsoft/winappCli/issues/570",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-06-12T15:07:01Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "June26"
+    },
+    {
+      "title": "win-dev-skills winui analyzer figure out publishing as nuget",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-06-10T15:39:07Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "May26",
+      "isDraft": true
+    },
+    {
+      "title": "`winapp init` crashes with unhandled InvalidOperationException in non-interactive shells (no TTY)",
+      "number": 556,
+      "url": "https://github.com/microsoft/winappCli/issues/556",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-06-01T18:48:24Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Update-check cache (`~/.winapp/.update-check`) not reliably written on first run — 250 ms timeout races GitHub API",
+      "number": 555,
+      "url": "https://github.com/microsoft/winappCli/issues/555",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-06-01T18:20:09Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "winapp pack --self-contained: installed MSIX fails with 0x80070002 (splash screen) — app's resources.pri is replaced by runtime's",
+      "number": 548,
+      "url": "https://github.com/microsoft/winappCli/issues/548",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-06-01T18:05:30Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Store Logos can be package-relative paths to file or MRT Keys",
+      "number": 432,
+      "url": "https://github.com/microsoft/winappCli/issues/432",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-29T18:27:45Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VS Code] Editing Package Name Fails in AppxManifest Editor",
+      "number": 426,
+      "url": "https://github.com/microsoft/winappCli/issues/426",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-29T18:27:35Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: winapp init should be a little smarter when figuring out what project to focus on",
+      "number": 476,
+      "url": "https://github.com/microsoft/winappCli/issues/476",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-28T23:04:15Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": "May26"
+    },
+    {
+      "title": "[Feature]: Create MSIX Bundles",
+      "number": 517,
+      "url": "https://github.com/microsoft/winappCli/issues/517",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-28T04:48:23Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": "May26"
+    },
+    {
+      "title": "[Bug]: dotnet run re-registers AppxManifest each time, resetting app state",
+      "number": 537,
+      "url": "https://github.com/microsoft/winappCli/issues/537",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-05-22T18:00:52Z",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Update check shows wrong version in debug builds",
+      "number": 538,
+      "url": "https://github.com/microsoft/winappCli/issues/538",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-05-22T17:43:01Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Publish agent plugin to marketplace and automate for releases",
+      "number": 394,
+      "url": "https://github.com/microsoft/winappCli/issues/394",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-21T17:19:40Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "May26"
+    },
+    {
+      "title": "[Bug]: Showing toast notifications requires elevated privileges",
+      "number": 352,
+      "url": "https://github.com/microsoft/winappCli/issues/352",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-19T19:09:06Z",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug",
+        "cli",
+        "needs-maintainer-response"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "uwp support？",
+      "number": 532,
+      "url": "https://github.com/microsoft/winappCli/issues/532",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-05-14T18:13:53Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Processor Architecture dropdown is missing x86a64",
+      "number": 430,
+      "url": "https://github.com/microsoft/winappCli/issues/430",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-13T17:54:43Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: CLI should check for updates",
+      "number": 392,
+      "url": "https://github.com/microsoft/winappCli/issues/392",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-12T17:18:45Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "May26"
+    },
+    {
+      "title": "Auto submit mslearn documentation on release",
+      "number": 445,
+      "url": "https://github.com/microsoft/winappCli/issues/445",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-07T20:51:15Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "documentation",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "May26"
+    },
+    {
+      "title": "[Bug]: pack does not inlcude referenced manifest.json in the appxmanifest in the final msix",
+      "number": 353,
+      "url": "https://github.com/microsoft/winappCli/issues/353",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-07T18:25:46Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": "May26"
+    },
+    {
+      "title": "[Bug]: Inconsistent reference to Package.appxmanifest over appxmanifest.xml throughout codebase",
+      "number": 510,
+      "url": "https://github.com/microsoft/winappCli/issues/510",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-07T18:25:46Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "May26"
+    },
+    {
+      "title": "Electron sample e2e fails: Electron 42 removed postinstall binary download",
+      "number": 524,
+      "url": "https://github.com/microsoft/winappCli/issues/524",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-05-07T16:47:56Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Agents occasionally try to build CLI using wrong methods",
+      "number": 418,
+      "url": "https://github.com/microsoft/winappCli/issues/418",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-06T17:38:14Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Figure out what \"GA\" means",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-05-06T17:27:20Z",
+      "assignee": "beth-panx",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "May26",
+      "isDraft": true
+    },
+    {
+      "title": "[VSCode] Investigate if Phone Publisher ID is needed",
+      "number": 431,
+      "url": "https://github.com/microsoft/winappCli/issues/431",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-05T22:39:39Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Publish VS Code Extension to VS Code Marketplace",
+      "number": 447,
+      "url": "https://github.com/microsoft/winappCli/issues/447",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-05-05T22:39:21Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: winapp init requires a base directory when building the sample cpp app.",
+      "number": 421,
+      "url": "https://github.com/microsoft/winappCli/issues/421",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-27T17:10:38Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: VS Code Commands labeled \"WinApp: WinApp: ...\"",
+      "number": 501,
+      "url": "https://github.com/microsoft/winappCli/issues/501",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-27T16:40:16Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Docs]: Create documentation for the VS Code Extension",
+      "number": 372,
+      "url": "https://github.com/microsoft/winappCli/issues/372",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-24T02:04:53Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "documentation",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[VS Code] Enable VS Code Extension to Build App Projects",
+      "number": 490,
+      "url": "https://github.com/microsoft/winappCli/issues/490",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-24T02:04:53Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[VS Code] Some WinApp CLI commands are missing from the VS Code Extension",
+      "number": 491,
+      "url": "https://github.com/microsoft/winappCli/issues/491",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-24T02:01:26Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "VS Code Extension v0.1 Blog Post",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-04-23T20:42:51Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "",
+      "isDraft": true
+    },
+    {
+      "title": "Optimize and publish claude code plugin",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-04-23T16:47:09Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "June26",
+      "isDraft": true
+    },
+    {
+      "title": "[Bug]: Using winapp run with a .NET console app swallows console messages",
+      "number": 470,
+      "url": "https://github.com/microsoft/winappCli/issues/470",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T18:25:58Z",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "Write down release steps",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-04-21T18:12:05Z",
+      "assignee": "nmetulev",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "",
+      "isDraft": true
+    },
+    {
+      "title": "[Bug]: Get local Win App path returns path to directory that doesn't exist",
+      "number": 475,
+      "url": "https://github.com/microsoft/winappCli/issues/475",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T17:55:47Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "winapp ui: inspect returning wrong information for wrong app",
+      "number": 467,
+      "url": "https://github.com/microsoft/winappCli/issues/467",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T17:53:59Z",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Bug]: winapp init doesn't create winapp.yml file for tauri",
+      "number": 474,
+      "url": "https://github.com/microsoft/winappCli/issues/474",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T17:46:53Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Bug]: After creating msix package, installation fails if SplashScreen assets specified in manifest",
+      "number": 313,
+      "url": "https://github.com/microsoft/winappCli/issues/313",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T17:43:17Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: winui ui inspect --window <hwnd>: showed more than the listed HWND",
+      "number": 472,
+      "url": "https://github.com/microsoft/winappCli/issues/472",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T17:23:14Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Bug]: `winapp init` should show when a nuget package wasn't added",
+      "number": 466,
+      "url": "https://github.com/microsoft/winappCli/issues/466",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T16:49:48Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Docs]: Update Docs to refer to Package.appxmanifest instead of appxmanifest.xml",
+      "number": 471,
+      "url": "https://github.com/microsoft/winappCli/issues/471",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T16:02:35Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "documentation",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "winapp init should add asset files as Content items in the csproj",
+      "number": 444,
+      "url": "https://github.com/microsoft/winappCli/issues/444",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T04:58:55Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: `winapp init` says \"SDK installation skipped by user choice\" when skipped because it already is added",
+      "number": 464,
+      "url": "https://github.com/microsoft/winappCli/issues/464",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T04:43:27Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Bug]: `winapp init` can can get stuck for up to 30s without any output",
+      "number": 463,
+      "url": "https://github.com/microsoft/winappCli/issues/463",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T04:43:26Z",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Bug]: Error output on winapp run list-windows",
+      "number": 469,
+      "url": "https://github.com/microsoft/winappCli/issues/469",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-21T04:43:04Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "Run: PID is returned regardless of whether or not \"--detach\" is specified",
+      "number": 465,
+      "url": "https://github.com/microsoft/winappCli/issues/465",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-04-20T19:04:25Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Add further options for CLI build script",
+      "number": 449,
+      "url": "https://github.com/microsoft/winappCli/issues/449",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-04-20T17:03:41Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Shell completion",
+      "number": 357,
+      "url": "https://github.com/microsoft/winappCli/issues/357",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-20T16:53:09Z",
+      "assignee": "nmetulev, Jaylyn-Barbee, Copilot",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Bug]: Using winapp run in a project with appxmanifest.xml fails silently with no launch",
+      "number": 451,
+      "url": "https://github.com/microsoft/winappCli/issues/451",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-20T16:52:44Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "MVP Email announcing winapp run and winapp ui",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-04-20T12:10:00Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26",
+      "isDraft": true
+    },
+    {
+      "title": "e2e testing",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-04-20T12:08:58Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26",
+      "isDraft": true
+    },
+    {
+      "title": "[Bug][VS Code] Dependencies tab lacks support for additional Dependency types",
+      "number": 439,
+      "url": "https://github.com/microsoft/winappCli/issues/439",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-17T21:17:04Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VSCode] Properties tab is missing several properties",
+      "number": 443,
+      "url": "https://github.com/microsoft/winappCli/issues/443",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-17T21:16:51Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VSCode] Custom capabilities need type validation",
+      "number": 442,
+      "url": "https://github.com/microsoft/winappCli/issues/442",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-17T21:16:33Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VSCode] Change Package Dependency: label to Name:",
+      "number": 437,
+      "url": "https://github.com/microsoft/winappCli/issues/437",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T20:08:41Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: `winapp run` fails when manifest is called package.appxmanifest",
+      "number": 393,
+      "url": "https://github.com/microsoft/winappCli/issues/393",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T05:03:26Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Local docs generation producing garbled output in some environments",
+      "number": 425,
+      "url": "https://github.com/microsoft/winappCli/issues/425",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T01:05:02Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Bug]: \"winapp init\" should add `<EnableMsixTooling>true</EnableMsixTooling>` when adding Microsoft.Windows.SDK.BuildTools package",
+      "number": 401,
+      "url": "https://github.com/microsoft/winappCli/issues/401",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T01:02:18Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: `winapp init --use-defaults` overwrites the winappsdk version in a csproj",
+      "number": 395,
+      "url": "https://github.com/microsoft/winappCli/issues/395",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T01:02:17Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: `winapp init` should ask to install winapp nuget package",
+      "number": 399,
+      "url": "https://github.com/microsoft/winappCli/issues/399",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T01:02:17Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VS Code] Remove Application Tab when Editor has opened a Framework Package",
+      "number": 441,
+      "url": "https://github.com/microsoft/winappCli/issues/441",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T00:30:32Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VSCode] PackageDependency is missing support for uap6:Optional",
+      "number": 435,
+      "url": "https://github.com/microsoft/winappCli/issues/435",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T00:28:27Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VSCode] Publisher validation is not fully correct",
+      "number": 429,
+      "url": "https://github.com/microsoft/winappCli/issues/429",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T00:25:09Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VSCode] Package Name doesn't enforce max length",
+      "number": 427,
+      "url": "https://github.com/microsoft/winappCli/issues/427",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T00:21:08Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VSCode] Package name doesn't enforce min length",
+      "number": 428,
+      "url": "https://github.com/microsoft/winappCli/issues/428",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T00:20:46Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VS Code] Package Display Name is not shown in Start Menu",
+      "number": 433,
+      "url": "https://github.com/microsoft/winappCli/issues/433",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T00:13:33Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug[VSCode] MaxVersionTested and Min Version must be a DotQuadNumber",
+      "number": 434,
+      "url": "https://github.com/microsoft/winappCli/issues/434",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T00:02:42Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VS Code] Package Dependencies need validation for Min Version property",
+      "number": 436,
+      "url": "https://github.com/microsoft/winappCli/issues/436",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-16T00:00:26Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VSCode] In Identity Tab rename Package Name label to Name",
+      "number": 438,
+      "url": "https://github.com/microsoft/winappCli/issues/438",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-15T23:57:08Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug][VS Code] Editor doesn't support Dependency Reordering",
+      "number": 440,
+      "url": "https://github.com/microsoft/winappCli/issues/440",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-15T23:56:39Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Projections] Create test suite to validate addon behavior",
+      "number": 10,
+      "url": "https://github.com/microsoft/windows-ai-electron/issues/10",
+      "repo": "microsoft/windows-ai-electron",
+      "closedAt": "2026-04-15T21:56:42Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": "Iteration 5"
+    },
+    {
+      "title": "[Projections] Add Support for LanguageModelEmbeddingVectorResult",
+      "number": 29,
+      "url": "https://github.com/microsoft/windows-ai-electron/issues/29",
+      "repo": "microsoft/windows-ai-electron",
+      "closedAt": "2026-04-15T21:56:36Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Projections] Create Projections for Microsoft.Windows..AI.MachineLearning",
+      "number": 11,
+      "url": "https://github.com/microsoft/windows-ai-electron/issues/11",
+      "repo": "microsoft/windows-ai-electron",
+      "closedAt": "2026-04-15T21:56:32Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Projections] Complete projections for ImageObjectRemover",
+      "number": 6,
+      "url": "https://github.com/microsoft/windows-ai-electron/issues/6",
+      "repo": "microsoft/windows-ai-electron",
+      "closedAt": "2026-04-15T21:56:23Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Projections] Complete projections for ImageObjectExtractorHint",
+      "number": 5,
+      "url": "https://github.com/microsoft/windows-ai-electron/issues/5",
+      "repo": "microsoft/windows-ai-electron",
+      "closedAt": "2026-04-15T21:56:17Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Projections] Complete projections for ImageObjectExtractor",
+      "number": 4,
+      "url": "https://github.com/microsoft/windows-ai-electron/issues/4",
+      "repo": "microsoft/windows-ai-electron",
+      "closedAt": "2026-04-15T21:56:12Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Projections] Complete projections for ImageScaler",
+      "number": 3,
+      "url": "https://github.com/microsoft/windows-ai-electron/issues/3",
+      "repo": "microsoft/windows-ai-electron",
+      "closedAt": "2026-04-15T21:56:07Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: Blue Plate behind App Icon in Taskbar while Running with Debug Identity",
+      "number": 373,
+      "url": "https://github.com/microsoft/winappCli/issues/373",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-15T17:46:45Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Telemetry for commands being used by agents",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-04-15T17:39:01Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26",
+      "isDraft": true
+    },
+    {
+      "title": "0.3 bugbash",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-04-15T17:34:30Z",
+      "assignee": "nmetulev",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26",
+      "isDraft": true
+    },
+    {
+      "title": "ifdef blog for 0.3 release",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "closedAt": "2026-04-15T17:33:51Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "April26",
+      "isDraft": true
+    },
+    {
+      "title": "Support JSON output",
+      "number": 158,
+      "url": "https://github.com/microsoft/winappCli/issues/158",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-15T17:23:10Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Long Paths must be enabled for `winapp node add-electron-debug-identity` to succeed",
+      "number": 151,
+      "url": "https://github.com/microsoft/winappCli/issues/151",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-15T17:20:45Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: `winapp run` fails when path is too long",
+      "number": 391,
+      "url": "https://github.com/microsoft/winappCli/issues/391",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-04-13T20:50:28Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Programador UTN ",
+      "number": 422,
+      "url": "https://github.com/microsoft/winappCli/issues/422",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-04-13T16:43:19Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: Create README for WinApp CLI VS Code Extension",
+      "number": 409,
+      "url": "https://github.com/microsoft/winappCli/issues/409",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-09T14:48:12Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "documentation",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "[Bug]: winapp run looks for winapp.yaml while running project with csproj",
+      "number": 400,
+      "url": "https://github.com/microsoft/winappCli/issues/400",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-04-08T21:51:06Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: VS Code Extension fails if AppxManifest at root",
+      "number": 370,
+      "url": "https://github.com/microsoft/winappCli/issues/370",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-08T17:30:48Z",
+      "assignee": "chiaramooney, Copilot",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: WinApp CLI commands fail when running via VS Code extension",
+      "number": 367,
+      "url": "https://github.com/microsoft/winappCli/issues/367",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-07T19:23:06Z",
+      "assignee": "chiaramooney, Copilot",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: VS Code Extension requires C# VS Code Extension",
+      "number": 371,
+      "url": "https://github.com/microsoft/winappCli/issues/371",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-07T19:22:51Z",
+      "assignee": "chiaramooney, Copilot",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: Create-debug-identity command fails when using VS Code Extension",
+      "number": 405,
+      "url": "https://github.com/microsoft/winappCli/issues/405",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-07T19:22:33Z",
+      "assignee": "chiaramooney, Copilot",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[BUG] Pack command should ignore AppX folder",
+      "number": 388,
+      "url": "https://github.com/microsoft/winappCli/issues/388",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-04-03T19:18:30Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "WinApp can run/launch a packaged app",
+      "number": 130,
+      "url": "https://github.com/microsoft/winappCli/issues/130",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-04-02T22:02:03Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: Skills and agents not available when installed via `copilot plugin install microsoft/WinAppCli`",
+      "number": 365,
+      "url": "https://github.com/microsoft/winappCli/issues/365",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-03-31T18:10:59Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Add support for self-contained windows app sdk",
+      "number": 324,
+      "url": "https://github.com/microsoft/winappCli/issues/324",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-21T00:17:56Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Asset generator improvements (SVG, .ico output)",
+      "number": 321,
+      "url": "https://github.com/microsoft/winappCli/issues/321",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-18T16:50:09Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: image assets should follow proper naming conventions",
+      "number": 327,
+      "url": "https://github.com/microsoft/winappCli/issues/327",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-03-18T16:50:09Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: Documentation Using .NET as a didecar| backend with Tauri",
+      "number": 260,
+      "url": "https://github.com/microsoft/winappCli/issues/260",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-14T00:17:40Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Consider abandoning Dev Mode switch",
+      "number": 223,
+      "url": "https://github.com/microsoft/winappCli/issues/223",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-06T01:02:22Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Support GraalVM native image",
+      "number": 254,
+      "url": "https://github.com/microsoft/winappCli/issues/254",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-06T00:23:28Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Rust app - Failed to add package identity",
+      "number": 270,
+      "url": "https://github.com/microsoft/winappCli/issues/270",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-06T00:23:25Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "stale",
+        "needs-author-response",
+        "cant-repro"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: cli should have an option to setup agent.md, skills.md, and/or llm-context.md in project during init",
+      "number": 269,
+      "url": "https://github.com/microsoft/winappCli/issues/269",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-05T00:26:29Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Add support for adding activatable class entries based off a winmd file",
+      "number": 325,
+      "url": "https://github.com/microsoft/winappCli/issues/325",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-04T23:35:07Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "March26"
+    },
+    {
+      "title": "[Feature]: report test coverage",
+      "number": 342,
+      "url": "https://github.com/microsoft/winappCli/issues/342",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-04T21:32:53Z",
+      "assignee": "nmetulev, Copilot",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": "April26"
+    },
+    {
+      "title": "Warn during packaging if a user accidently placed a dev certificate in the packaging folder",
+      "number": 191,
+      "url": "https://github.com/microsoft/winappCli/issues/191",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-03-03T19:09:20Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "WinAppCli",
+      "number": 336,
+      "url": "https://github.com/microsoft/winappCli/issues/336",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-03-02T22:17:57Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp manifest update-assets` only produces one unplated asset",
+      "number": 298,
+      "url": "https://github.com/microsoft/winappCli/issues/298",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-27T19:23:05Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: Errors are too repetitive and should recommend verbose flag",
+      "number": 273,
+      "url": "https://github.com/microsoft/winappCli/issues/273",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-26T18:57:05Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: `GetLatestVersionAsync` returns unlisted NuGet package versions",
+      "number": 322,
+      "url": "https://github.com/microsoft/winappCli/issues/322",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-02-26T07:10:19Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Creating debug identity fails that Developer Mode is not enabled",
+      "number": 303,
+      "url": "https://github.com/microsoft/winappCli/issues/303",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-02-24T22:58:32Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Regression on RunCommandAsync",
+      "number": 308,
+      "url": "https://github.com/microsoft/winappCli/issues/308",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-02-23T20:39:00Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Visual Studio Build Tools are not installed",
+      "number": 261,
+      "url": "https://github.com/microsoft/winappCli/issues/261",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-22T15:02:58Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Support $placeholder$ in manifest for dynamic executable packaging",
+      "number": 283,
+      "url": "https://github.com/microsoft/winappCli/issues/283",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-19T23:42:15Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: When generating debug-identity or packaging apps that manage their own WASDK version, we need a way to know to add the framework dependency to the manifest",
+      "number": 235,
+      "url": "https://github.com/microsoft/winappCli/issues/235",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-19T18:57:10Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "dotnet",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Gallery] Add App Icon Assets to App",
+      "number": 18,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/issues/18",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "closedAt": "2026-02-19T18:54:54Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "Needed: Publish to Store"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "Iteration 4"
+    },
+    {
+      "title": "Proxy msstore CLI commands",
+      "number": 142,
+      "url": "https://github.com/microsoft/winappCli/issues/142",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-18T17:53:09Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: Share NuGet cache",
+      "number": 271,
+      "url": "https://github.com/microsoft/winappCli/issues/271",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-17T22:49:57Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Native .NET (.csproj) support in winapp cli for .net applications",
+      "number": 284,
+      "url": "https://github.com/microsoft/winappCli/issues/284",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-17T22:47:35Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement",
+        "dotnet"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: Target package folder gets polluted and outdated assets reused when using package command without --manifest",
+      "number": 281,
+      "url": "https://github.com/microsoft/winappCli/issues/281",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-17T21:57:43Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Do not generate dev cert during init",
+      "number": 274,
+      "url": "https://github.com/microsoft/winappCli/issues/274",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-17T21:51:50Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "init is improved for .net specific frameworks",
+      "number": 119,
+      "url": "https://github.com/microsoft/winappCli/issues/119",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-12T21:42:37Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Gallery] Create automated msix builds in GitHub releases",
+      "number": 19,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/issues/19",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "closedAt": "2026-02-12T21:40:17Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "Needed: Make Repo Public"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": "Iteration 4"
+    },
+    {
+      "title": "[Feature]:  Support flutter",
+      "number": 253,
+      "url": "https://github.com/microsoft/winappCli/issues/253",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-02-12T00:43:06Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Support Visual Studio and custom variable substitution in appxmanifest.xml for winapp pack and crate-debug-identity commands",
+      "number": 282,
+      "url": "https://github.com/microsoft/winappCli/issues/282",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-02-09T23:53:32Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: A new manifest generates a non valid Identity name",
+      "number": 258,
+      "url": "https://github.com/microsoft/winappCli/issues/258",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T23:56:39Z",
+      "assignee": "nmetulev, Copilot",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Feature]: Should winapp manifest update-assets create an .ico file?",
+      "number": 234,
+      "url": "https://github.com/microsoft/winappCli/issues/234",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-30T20:13:15Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "MCP Servers (NodeJS and Python) support",
+      "number": 114,
+      "url": "https://github.com/microsoft/winappCli/issues/114",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:51:44Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Integration with Visual Studio",
+      "number": 115,
+      "url": "https://github.com/microsoft/winappCli/issues/115",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:51:27Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "First-class CI/CD Support",
+      "number": 118,
+      "url": "https://github.com/microsoft/winappCli/issues/118",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:36:00Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Remote signer + key vault support",
+      "number": 159,
+      "url": "https://github.com/microsoft/winappCli/issues/159",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:29:29Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Non-interactive mode",
+      "number": 157,
+      "url": "https://github.com/microsoft/winappCli/issues/157",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:25:40Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Identity registration fails without dev mode check",
+      "number": 111,
+      "url": "https://github.com/microsoft/winappCli/issues/111",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:19:02Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "When user makes a C# add-on, user must manually run npx winapp restore",
+      "number": 77,
+      "url": "https://github.com/microsoft/winappCli/issues/77",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:14:01Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Known issue: init command for .NET apps can lead to issues",
+      "number": 66,
+      "url": "https://github.com/microsoft/winappCli/issues/66",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:13:44Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "known-issue"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Commands that require appxmanifest.xml to work should do a manifest check prior to doing any work",
+      "number": 45,
+      "url": "https://github.com/microsoft/winappCli/issues/45",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:12:34Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Projections] Create prototype for a tool that creates automated Node JS projections for WinRT APIs",
+      "number": 41,
+      "url": "https://github.com/microsoft/winappCli/issues/41",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-30T19:12:19Z",
+      "assignee": "JesseCol",
+      "labels": [],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: Total bullshit",
+      "number": 264,
+      "url": "https://github.com/microsoft/winappCli/issues/264",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-29T17:41:26Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp manifest generate --logo-path logo.jpg` does not generate image assets from image",
+      "number": 217,
+      "url": "https://github.com/microsoft/winappCli/issues/217",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-22T23:05:40Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Create an end to end test to test everything",
+      "number": 53,
+      "url": "https://github.com/microsoft/winappCli/issues/53",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-22T23:05:13Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Bug]: manifest update-assets should update assets linked in manifest",
+      "number": 218,
+      "url": "https://github.com/microsoft/winappCli/issues/218",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-22T22:33:43Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Restore output is not accurate",
+      "number": 245,
+      "url": "https://github.com/microsoft/winappCli/issues/245",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-22T01:56:06Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp pack output indentation is broken",
+      "number": 244,
+      "url": "https://github.com/microsoft/winappCli/issues/244",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-22T00:12:10Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Create an end to end test for Electron",
+      "number": 241,
+      "url": "https://github.com/microsoft/winappCli/issues/241",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-21T23:06:41Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Move to typescript for npm package",
+      "number": 240,
+      "url": "https://github.com/microsoft/winappCli/issues/240",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-21T17:34:51Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: Create guide for calling non-AI Windows API from Electron native addon",
+      "number": 227,
+      "url": "https://github.com/microsoft/winappCli/issues/227",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-20T22:56:53Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp node add-electron-debug-identity` output is broken",
+      "number": 225,
+      "url": "https://github.com/microsoft/winappCli/issues/225",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-20T21:59:11Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Init without installing SDKs doesn't mention .gitignore in the screen, but the file is created.",
+      "number": 230,
+      "url": "https://github.com/microsoft/winappCli/issues/230",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-14T00:47:54Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Banner is not shown when first running the \"winapp init\" command",
+      "number": 229,
+      "url": "https://github.com/microsoft/winappCli/issues/229",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-14T00:36:08Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: :electron: Document how to use winappcli with @electron-forge/maker-msix",
+      "number": 204,
+      "url": "https://github.com/microsoft/winappCli/issues/204",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-13T00:58:43Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Question]: Why did you choose [MSIX packaging with external location] vs. [in-place registration]?",
+      "number": 224,
+      "url": "https://github.com/microsoft/winappCli/issues/224",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-12T22:10:03Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Too many emojis emitted in `winapp init` output",
+      "number": 222,
+      "url": "https://github.com/microsoft/winappCli/issues/222",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-12T18:46:43Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Improve Init",
+      "number": 64,
+      "url": "https://github.com/microsoft/winappCli/issues/64",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-09T19:07:05Z",
+      "assignee": "azchohfi",
+      "labels": [
+        "known-issue"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Rethink verbosity and developer experience for all commands",
+      "number": 179,
+      "url": "https://github.com/microsoft/winappCli/issues/179",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-09T19:07:05Z",
+      "assignee": "azchohfi",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Gallery] Resolve Fast Pass Accessibility Issues and Submit for Accessibility Grading",
+      "number": 15,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/issues/15",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "closedAt": "2026-01-09T00:15:59Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P2 (could do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "Generate Manifest Using EXE Attributes",
+      "number": 149,
+      "url": "https://github.com/microsoft/winappCli/issues/149",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-08T20:54:55Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "P1 (should do)",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Gallery] App goes blank after Image Description is created with \"Detailed\" option",
+      "number": 24,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/issues/24",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "closedAt": "2026-01-08T19:58:29Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "Iteration 4"
+    },
+    {
+      "title": "GitHub action",
+      "number": 161,
+      "url": "https://github.com/microsoft/winappCli/issues/161",
+      "repo": "microsoft/winappCli",
+      "closedAt": "2026-01-08T00:03:05Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed",
+      "priority": "",
+      "status": "Done",
+      "iteration": ""
+    },
+    {
+      "title": "[Gallery] Create MCP (client) Sample Page",
+      "number": 11,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/issues/11",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "closedAt": "2026-01-05T23:17:35Z",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "closed",
+      "priority": "P0 (must do)",
+      "status": "Done",
+      "iteration": "Iteration 5"
+    },
+    {
+      "title": "WinAppCLI should use project's nuget.config file when present",
+      "number": 183,
+      "url": "https://github.com/microsoft/winappCli/issues/183",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-05T22:33:35Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Electron] when running with debug identity, app icon is blank in taskbar",
+      "number": 197,
+      "url": "https://github.com/microsoft/winappCli/issues/197",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-05T21:32:44Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: create-debug-identity prints error when the executable does not have a manifest",
+      "number": 205,
+      "url": "https://github.com/microsoft/winappCli/issues/205",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-01-05T21:26:24Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    }
+  ],
+  "mergedPRs": [
+    {
+      "title": "Add minimal checkout-only test pipeline",
+      "number": 27,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/27",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-30T23:05:55Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Add ui send-keys (#562) and ui drag + scroll --wheel (#498) input-injection verbs",
+      "number": 587,
+      "url": "https://github.com/microsoft/winappCli/pull/587",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-30T21:32:30Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Escape file-path arguments passed to the PowerShell terminal",
+      "number": 23,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/23",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-29T20:59:20Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Add project detection, multi-project support, and security fixes",
+      "number": 19,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/19",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-29T19:20:34Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Combine all dependabot dependency bumps into one PR",
+      "number": 22,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/22",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-29T17:56:20Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Add native PowerShell winget cmdlet to README.md",
+      "number": 594,
+      "url": "https://github.com/microsoft/winappCli/pull/594",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-27T03:23:45Z",
+      "author": "soroshsabz",
+      "assignee": "soroshsabz",
+      "labels": [
+        "documentation"
+      ]
+    },
+    {
+      "title": "Bump @vscode/vsce from 2.22.0 to 3.9.2",
+      "number": 14,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/14",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-26T22:34:03Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "Add Windows 11-themed hero image to README",
+      "number": 18,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/18",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-26T18:53:20Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Use winappcli for JS bindings and add model-download flow for AI samples",
+      "number": 33,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/33",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-06-26T18:37:56Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": []
+    },
+    {
+      "title": "Bump version to 0.4.1 for development",
+      "number": 589,
+      "url": "https://github.com/microsoft/winappCli/pull/589",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-26T17:46:21Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "docs-not-needed"
+      ]
+    },
+    {
+      "title": "Bump @vscode/test-cli from 0.0.12 to 0.0.15",
+      "number": 15,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/15",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-26T17:22:53Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "Bump typescript from 5.9.3 to 6.0.3",
+      "number": 16,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/16",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-26T17:21:42Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "Fix MS Learn release job: use pipeline artifact instead of checkout (follow-up to #590)",
+      "number": 591,
+      "url": "https://github.com/microsoft/winappCli/pull/591",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-25T22:42:17Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": []
+    },
+    {
+      "title": "Fix MS Learn docs PR step: hand off source via pipeline artifact",
+      "number": 590,
+      "url": "https://github.com/microsoft/winappCli/pull/590",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-25T18:07:04Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": []
+    },
+    {
+      "title": "Complete repo setup: extension code, pipelines, configs, and docs",
+      "number": 4,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/4",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-23T23:02:22Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Update ESRP for SFI",
+      "number": 588,
+      "url": "https://github.com/microsoft/winappCli/pull/588",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-23T17:00:17Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Adding Microsoft SECURITY.MD",
+      "number": 2,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/2",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-06-22T21:54:58Z",
+      "author": "microsoft-github-policy-service[bot]",
+      "assignee": "microsoft-github-policy-service[bot]",
+      "labels": []
+    },
+    {
+      "title": "Integrate JS/TS WinRT bindings into winapp init (managed codegen + runtime, kept in version sync)",
+      "number": 536,
+      "url": "https://github.com/microsoft/winappCli/pull/536",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-22T17:11:35Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Add \"ui hover\" command to allow capturing of tooltips/flyouts/etc",
+      "number": 583,
+      "url": "https://github.com/microsoft/winappCli/pull/583",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-20T00:29:00Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Fix cert bug with multi-component publisher validation",
+      "number": 573,
+      "url": "https://github.com/microsoft/winappCli/pull/573",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-20T00:13:31Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Bump undici from 7.25.0 to 7.28.0 in /src/winapp-VSC",
+      "number": 584,
+      "url": "https://github.com/microsoft/winappCli/pull/584",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-19T20:47:24Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Add Support for VS Code AppxManifest Editor",
+      "number": 533,
+      "url": "https://github.com/microsoft/winappCli/pull/533",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-19T20:19:15Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "documentation",
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Bump form-data from 4.0.5 to 4.0.6 in /src/winapp-VSC",
+      "number": 581,
+      "url": "https://github.com/microsoft/winappCli/pull/581",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-19T16:16:07Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump markdown-it from 14.1.1 to 14.2.0 in /src/winapp-VSC",
+      "number": 582,
+      "url": "https://github.com/microsoft/winappCli/pull/582",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-17T20:56:09Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Screenshot command with an out directory that doesn't exist will create that directory instead of throwing an exception",
+      "number": 576,
+      "url": "https://github.com/microsoft/winappCli/pull/576",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-17T18:36:29Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "docs-not-needed"
+      ]
+    },
+    {
+      "title": "Bump js-yaml from 4.1.1 to 4.2.0 in /src/winapp-VSC",
+      "number": 578,
+      "url": "https://github.com/microsoft/winappCli/pull/578",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-17T18:35:49Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Fix PoliCheck non-inclusive language findings",
+      "number": 580,
+      "url": "https://github.com/microsoft/winappCli/pull/580",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-17T18:35:09Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "[ci] workaround MSVC 14.51 coroutine hard-error in flutter-app test",
+      "number": 579,
+      "url": "https://github.com/microsoft/winappCli/pull/579",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-17T01:28:49Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "title": "Bump esbuild from 0.27.3 to 0.28.1 in /src/winapp-VSC",
+      "number": 577,
+      "url": "https://github.com/microsoft/winappCli/pull/577",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-15T17:17:15Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Minor cleanup in our manifest / template manifests",
+      "number": 575,
+      "url": "https://github.com/microsoft/winappCli/pull/575",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-12T18:51:25Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "List windows will show visible windows without a title by default, added a --show-hidden flag to force showing all windows",
+      "number": 571,
+      "url": "https://github.com/microsoft/winappCli/pull/571",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-12T15:06:59Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "[Plugin] Claude Code Plugin + Script to automatically keep it in sync with the GHCPCLI Plugin.",
+      "number": 569,
+      "url": "https://github.com/microsoft/winappCli/pull/569",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-11T19:07:56Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Fix: Wingetcreate installer count mismatch in release pipeline",
+      "number": 568,
+      "url": "https://github.com/microsoft/winappCli/pull/568",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-05T18:14:40Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Bump version to 0.3.3 for development",
+      "number": 566,
+      "url": "https://github.com/microsoft/winappCli/pull/566",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-03T17:05:33Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "docs-not-needed"
+      ]
+    },
+    {
+      "title": "fix(ui): report ambiguity on partial process name match",
+      "number": 564,
+      "url": "https://github.com/microsoft/winappCli/pull/564",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-02T17:34:13Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Auto-generated baselines by 1ES Pipeline Templates",
+      "number": 544,
+      "url": "https://github.com/microsoft/winappCli/pull/544",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-01T19:30:01Z",
+      "author": "microsoft-github-policy-service[bot]",
+      "assignee": "microsoft-github-policy-service[bot]",
+      "labels": []
+    },
+    {
+      "title": "Fix: `winapp init` crashing in non-interactive shells (use defaults behavior if non interactive)",
+      "number": 559,
+      "url": "https://github.com/microsoft/winappCli/pull/559",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-01T18:48:22Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Fix update check timeout bug",
+      "number": 558,
+      "url": "https://github.com/microsoft/winappCli/pull/558",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-01T18:20:07Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Fix: pack with --self-contained won't overwrite dupe files from runtime like resources.pri",
+      "number": 554,
+      "url": "https://github.com/microsoft/winappCli/pull/554",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-01T18:05:29Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Bump qs from 6.15.1 to 6.15.2 in /src/winapp-VSC",
+      "number": 561,
+      "url": "https://github.com/microsoft/winappCli/pull/561",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-01T17:43:20Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump @tootallnate/once from 2.0.0 to 2.0.1 in /samples/electron",
+      "number": 560,
+      "url": "https://github.com/microsoft/winappCli/pull/560",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-06-01T17:13:14Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump brace-expansion from 5.0.5 to 5.0.6 in /src/winapp-VSC",
+      "number": 539,
+      "url": "https://github.com/microsoft/winappCli/pull/539",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-31T23:59:58Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump tmp from 0.2.5 to 0.2.7 in /src/winapp-VSC",
+      "number": 553,
+      "url": "https://github.com/microsoft/winappCli/pull/553",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-31T23:45:45Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Use dynwinrt for WinRT AI APIs and add image scaler, object extractor, and object remover samples",
+      "number": 32,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/32",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-05-28T22:06:20Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": []
+    },
+    {
+      "title": "Fix RCE via execution alias resolved against CWD/PATH",
+      "number": 550,
+      "url": "https://github.com/microsoft/winappCli/pull/550",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-28T17:34:45Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": [
+        "docs-not-needed"
+      ]
+    },
+    {
+      "title": "MSIX Bundle Support for pack command",
+      "number": 546,
+      "url": "https://github.com/microsoft/winappCli/pull/546",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-28T04:48:22Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "fix(samples): use npx install-electron for Electron 42+ binary downlo…",
+      "number": 552,
+      "url": "https://github.com/microsoft/winappCli/pull/552",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-28T02:35:11Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Make init smarter as far as detecting projects, placing files, and showing warnings for incompatible directories",
+      "number": 530,
+      "url": "https://github.com/microsoft/winappCli/pull/530",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-27T05:36:26Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Skip re-registration on `dotnet run` when manifest is unchanged (#537)",
+      "number": 542,
+      "url": "https://github.com/microsoft/winappCli/pull/542",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-22T18:00:51Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Bump @tootallnate/once from 2.0.0 to 2.0.1 in /samples/electron-winml",
+      "number": 547,
+      "url": "https://github.com/microsoft/winappCli/pull/547",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-22T17:43:36Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Fix error where update notice checked prerelease versions incorrectly and improperly references cached test output",
+      "number": 541,
+      "url": "https://github.com/microsoft/winappCli/pull/541",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-22T17:43:00Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Add copilot-setup-steps for Windows cloud agent env",
+      "number": 543,
+      "url": "https://github.com/microsoft/winappCli/pull/543",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-21T14:35:17Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Make Microsoft.Windows.SDK.BuildTools.WinApp safe for transitive consumption",
+      "number": 513,
+      "url": "https://github.com/microsoft/winappCli/pull/513",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-20T00:53:01Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "[Plugin] Backfilling content from Awesome Copilot SKILLS doc",
+      "number": 534,
+      "url": "https://github.com/microsoft/winappCli/pull/534",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-18T18:25:09Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": []
+    },
+    {
+      "title": "ui screenshot: switch to Windows.Graphics.Capture; add --focus flag",
+      "number": 522,
+      "url": "https://github.com/microsoft/winappCli/pull/522",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-13T16:28:27Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Bump fast-uri from 3.1.0 to 3.1.2 in /samples/electron",
+      "number": 527,
+      "url": "https://github.com/microsoft/winappCli/pull/527",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-12T18:35:51Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump fast-uri from 3.1.0 to 3.1.2 in /samples/electron-winml",
+      "number": 528,
+      "url": "https://github.com/microsoft/winappCli/pull/528",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-12T18:35:37Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Upstream Pipeline Changes for VSCE",
+      "number": 519,
+      "url": "https://github.com/microsoft/winappCli/pull/519",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-12T18:18:31Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "[Docs] MS Learn review back fill",
+      "number": 529,
+      "url": "https://github.com/microsoft/winappCli/pull/529",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-11T21:18:56Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": []
+    },
+    {
+      "title": "App update available notice on first run of the day - no upgrade command",
+      "number": 503,
+      "url": "https://github.com/microsoft/winappCli/pull/503",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-11T20:26:21Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Auto-update auto-merge PRs when main is pushed",
+      "number": 526,
+      "url": "https://github.com/microsoft/winappCli/pull/526",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-07T21:01:58Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "[Docs] Adding a pipeline to automate updating our MS Learn documentation",
+      "number": 518,
+      "url": "https://github.com/microsoft/winappCli/pull/518",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-07T20:51:13Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "documentation",
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Bump ip-address from 10.1.0 to 10.2.0 in /samples/electron",
+      "number": 523,
+      "url": "https://github.com/microsoft/winappCli/pull/523",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-07T20:28:08Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Parse manifest file to ensure all referenced files are included in MSIX output",
+      "number": 505,
+      "url": "https://github.com/microsoft/winappCli/pull/505",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-07T18:25:44Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Bump/vsc v0.1.1",
+      "number": 516,
+      "url": "https://github.com/microsoft/winappCli/pull/516",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-07T18:07:25Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "fix(electron): clearer messaging when Electron 42+ binary missing",
+      "number": 525,
+      "url": "https://github.com/microsoft/winappCli/pull/525",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-07T16:47:55Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "title": "Bump version to 0.3.2 for development",
+      "number": 515,
+      "url": "https://github.com/microsoft/winappCli/pull/515",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-01T19:27:40Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Add Publishing VSCE to CI + Automated Versioning to VSCE",
+      "number": 499,
+      "url": "https://github.com/microsoft/winappCli/pull/499",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-01T19:19:15Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "breaking-change"
+      ]
+    },
+    {
+      "title": "ci(metrics): post PR metrics comment from a workflow_run job (fixes fork PRs)",
+      "number": 514,
+      "url": "https://github.com/microsoft/winappCli/pull/514",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-01T18:01:12Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Improve winapp ui --json output: stable envelopes, no leaks, no cycles",
+      "number": 511,
+      "url": "https://github.com/microsoft/winappCli/pull/511",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-01T17:51:44Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": [
+        "breaking-change"
+      ]
+    },
+    {
+      "title": "feat(run): support -- passthrough for app arguments",
+      "number": 506,
+      "url": "https://github.com/microsoft/winappCli/pull/506",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-01T17:35:10Z",
+      "author": "mattleibow",
+      "assignee": "mattleibow",
+      "labels": []
+    },
+    {
+      "title": "Stream plain progress in CI and AI-agent terminals",
+      "number": 507,
+      "url": "https://github.com/microsoft/winappCli/pull/507",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-01T17:13:41Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Fix winapp run/init bugs and WinAppSDK 2.0.1 forward compat",
+      "number": 512,
+      "url": "https://github.com/microsoft/winappCli/pull/512",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-05-01T16:43:33Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Fix winapp run picking createdump.exe; share exe detection with winapp package",
+      "number": 496,
+      "url": "https://github.com/microsoft/winappCli/pull/496",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-30T06:45:38Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Add pr-review developer skill",
+      "number": 508,
+      "url": "https://github.com/microsoft/winappCli/pull/508",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-29T20:53:08Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Make VSC Section in Debugging.md more robust",
+      "number": 504,
+      "url": "https://github.com/microsoft/winappCli/pull/504",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-28T17:12:42Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "documentation"
+      ]
+    },
+    {
+      "title": "Fix Redundant Labelling for WinApp Commands in VSCE",
+      "number": 502,
+      "url": "https://github.com/microsoft/winappCli/pull/502",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-27T16:40:15Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "title": "Update READMEs for VSC + Config for Pre-launch Build Task",
+      "number": 493,
+      "url": "https://github.com/microsoft/winappCli/pull/493",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-24T02:04:52Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "documentation"
+      ]
+    },
+    {
+      "title": "Bump @xmldom/xmldom from 0.8.12 to 0.8.13 in /samples/electron",
+      "number": 494,
+      "url": "https://github.com/microsoft/winappCli/pull/494",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-24T02:02:00Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump @xmldom/xmldom from 0.8.12 to 0.8.13 in /samples/electron-winml",
+      "number": 495,
+      "url": "https://github.com/microsoft/winappCli/pull/495",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-24T02:01:47Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Add New Commands to VSC Extension",
+      "number": 497,
+      "url": "https://github.com/microsoft/winappCli/pull/497",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-24T02:01:25Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "fix(nuget): add compliant Copyright element for Microsoft NuGet policy",
+      "number": 489,
+      "url": "https://github.com/microsoft/winappCli/pull/489",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-22T15:57:42Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Bump version to 0.3.1 for development",
+      "number": 488,
+      "url": "https://github.com/microsoft/winappCli/pull/488",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-22T06:24:54Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "docs: make execution alias step explicit for console apps in .NET and Rust guides",
+      "number": 482,
+      "url": "https://github.com/microsoft/winappCli/pull/482",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T18:25:57Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "fix(get-winapp-path): fall back to global cache when local missing (#475)",
+      "number": 485,
+      "url": "https://github.com/microsoft/winappCli/pull/485",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T17:55:45Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Fix #467: ambiguous '-app' parsing and silent partial process matches",
+      "number": 477,
+      "url": "https://github.com/microsoft/winappCli/pull/477",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T17:53:58Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "docs: fix factual inaccuracies surfaced by docs-vs-code validation",
+      "number": 478,
+      "url": "https://github.com/microsoft/winappCli/pull/478",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T17:48:02Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "fix(restore): no-op gracefully when winapp.yaml is missing on non-.NET projects",
+      "number": 483,
+      "url": "https://github.com/microsoft/winappCli/pull/483",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T17:46:52Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Fix #472: don't expand to other windows when --window is explicit",
+      "number": 481,
+      "url": "https://github.com/microsoft/winappCli/pull/481",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T17:23:13Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "FIx 466: Show status messages for nuget package failures",
+      "number": 486,
+      "url": "https://github.com/microsoft/winappCli/pull/486",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T16:49:47Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "[Docs] Updating all of our documentation to use Package.appxmanifest rather than appxmanifest.xml",
+      "number": 487,
+      "url": "https://github.com/microsoft/winappCli/pull/487",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T16:02:34Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "documentation"
+      ]
+    },
+    {
+      "title": "Add assets to .csproj during win app init",
+      "number": 461,
+      "url": "https://github.com/microsoft/winappCli/pull/461",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T04:58:54Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Fix #463 and #464: surface progress and stop lying about why init skipped SDK setup",
+      "number": 484,
+      "url": "https://github.com/microsoft/winappCli/pull/484",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T04:43:25Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "fix(ui): escape ClassName/process name in list-windows to prevent Spectre markup errors",
+      "number": 479,
+      "url": "https://github.com/microsoft/winappCli/pull/479",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-21T04:43:03Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Add VSIX Artifact Upload",
+      "number": 462,
+      "url": "https://github.com/microsoft/winappCli/pull/462",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-20T19:17:00Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Add some flags to CLI build script.",
+      "number": 450,
+      "url": "https://github.com/microsoft/winappCli/pull/450",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-20T17:03:40Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "[CLI] Shell completion for commands, options, and values",
+      "number": 452,
+      "url": "https://github.com/microsoft/winappCli/pull/452",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-20T16:53:08Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Fix silent failure when winapp run is used on a project with \"appxmanifest.xml\" instead of \"Package.appxmanifest\"",
+      "number": 460,
+      "url": "https://github.com/microsoft/winappCli/pull/460",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-20T16:52:43Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "[Telemetry] Changes to detect if an agent is using winapp",
+      "number": 459,
+      "url": "https://github.com/microsoft/winappCli/pull/459",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-20T16:35:32Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": []
+    },
+    {
+      "title": "Adding end to end tests for the guides and samples",
+      "number": 351,
+      "url": "https://github.com/microsoft/winappCli/pull/351",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-20T16:18:32Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Bump picomatch in /src/winapp-VSC",
+      "number": 456,
+      "url": "https://github.com/microsoft/winappCli/pull/456",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-17T20:00:52Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump flatted from 3.3.3 to 3.4.2 in /src/winapp-VSC",
+      "number": 457,
+      "url": "https://github.com/microsoft/winappCli/pull/457",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-17T19:58:54Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump brace-expansion from 5.0.3 to 5.0.5 in /src/winapp-VSC",
+      "number": 458,
+      "url": "https://github.com/microsoft/winappCli/pull/458",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-17T19:58:19Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Merge VS Code Extension into main",
+      "number": 420,
+      "url": "https://github.com/microsoft/winappCli/pull/420",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-17T05:29:54Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Fix ADO pipeline",
+      "number": 455,
+      "url": "https://github.com/microsoft/winappCli/pull/455",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-17T05:28:59Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Remove DevTools mode references from docs and code",
+      "number": 453,
+      "url": "https://github.com/microsoft/winappCli/pull/453",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-17T05:13:32Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Force utf-8 encoding in generate and validate scripts for docs",
+      "number": 448,
+      "url": "https://github.com/microsoft/winappCli/pull/448",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-16T01:05:00Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Init command fixes: prevent csproj package version overwrites, prompt for package installs, add props to csproj required for packaging",
+      "number": 407,
+      "url": "https://github.com/microsoft/winappCli/pull/407",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-16T01:02:15Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "cli"
+      ]
+    },
+    {
+      "title": "UI automation: multi-window inspect, cross-window search, screenshot compositing",
+      "number": 419,
+      "url": "https://github.com/microsoft/winappCli/pull/419",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-15T16:59:24Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "feat: Add crash dump capture and analysis to --debug-output",
+      "number": 414,
+      "url": "https://github.com/microsoft/winappCli/pull/414",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-10T00:36:28Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "docs: clarify main branch is active development and link to latest build artifacts",
+      "number": 417,
+      "url": "https://github.com/microsoft/winappCli/pull/417",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-09T13:41:21Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Support for long paths in run command",
+      "number": 398,
+      "url": "https://github.com/microsoft/winappCli/pull/398",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-09T04:15:03Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Add README for VS Code Extension",
+      "number": 412,
+      "url": "https://github.com/microsoft/winappCli/pull/412",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-08T21:52:05Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Check for csproj when resolving packages and then fall back to yml file.",
+      "number": 413,
+      "url": "https://github.com/microsoft/winappCli/pull/413",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-08T21:51:04Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Fix .NET init: non-fatal WinApp package NuGet lookup, gate MSIX mutations on actual package add",
+      "number": 416,
+      "url": "https://github.com/microsoft/winappCli/pull/416",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-08T20:45:47Z",
+      "author": "Copilot",
+      "assignee": "Copilot",
+      "labels": []
+    },
+    {
+      "title": "Adding \"winapp ui\" for UI automation",
+      "number": 380,
+      "url": "https://github.com/microsoft/winappCli/pull/380",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-08T18:23:01Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Revert \"Add 'winapp new' command for creating WinUI 3 projects and items\"",
+      "number": 415,
+      "url": "https://github.com/microsoft/winappCli/pull/415",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-08T18:22:21Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Add 'winapp new' command for creating WinUI 3 projects and items",
+      "number": 411,
+      "url": "https://github.com/microsoft/winappCli/pull/411",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-08T18:21:04Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Migrate VS Code Launch and Debug to use Build Folder over AppxManifest",
+      "number": 410,
+      "url": "https://github.com/microsoft/winappCli/pull/410",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-08T04:01:57Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Add --detach option to run command and fix WinAppRuntime install in MSBuild path",
+      "number": 408,
+      "url": "https://github.com/microsoft/winappCli/pull/408",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-07T21:02:10Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Preserve MSIX app data (LocalState) across winapp run re-deploys",
+      "number": 403,
+      "url": "https://github.com/microsoft/winappCli/pull/403",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-07T20:34:37Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Fix VS Code extension CLI invocation failures on PowerShell and paths with spaces",
+      "number": 386,
+      "url": "https://github.com/microsoft/winappCli/pull/386",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-06T22:33:57Z",
+      "author": "Copilot",
+      "assignee": "Copilot",
+      "labels": []
+    },
+    {
+      "title": "VS Code extension: detect missing debugger extension and prompt to install",
+      "number": 384,
+      "url": "https://github.com/microsoft/winappCli/pull/384",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-06T22:18:10Z",
+      "author": "Copilot",
+      "assignee": "Copilot",
+      "labels": []
+    },
+    {
+      "title": "Resolve Bug: Blue Plate behind App Icon in Taskbar while Running with Debug Identity",
+      "number": 396,
+      "url": "https://github.com/microsoft/winappCli/pull/396",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-06T22:17:36Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "title": "Bump electron from 39.8.4 to 39.8.5 in /samples/electron-winml",
+      "number": 402,
+      "url": "https://github.com/microsoft/winappCli/pull/402",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-06T19:33:12Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump electron from 39.8.4 to 39.8.5 in /samples/electron",
+      "number": 397,
+      "url": "https://github.com/microsoft/winappCli/pull/397",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-06T17:53:52Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "#388: Exclude AppX from package and show warning",
+      "number": 389,
+      "url": "https://github.com/microsoft/winappCli/pull/389",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-03T19:18:28Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Bump electron from 39.2.7 to 39.8.4 in /samples/electron",
+      "number": 383,
+      "url": "https://github.com/microsoft/winappCli/pull/383",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-03T19:02:40Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump electron from 39.2.7 to 39.8.4 in /samples/electron-winml",
+      "number": 382,
+      "url": "https://github.com/microsoft/winappCli/pull/382",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-03T19:02:22Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "fxing build metrics not saving baseline",
+      "number": 390,
+      "url": "https://github.com/microsoft/winappCli/pull/390",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-03T19:01:13Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "enabling dev mode in gutub runner and testing debug identity in electron e2e",
+      "number": 387,
+      "url": "https://github.com/microsoft/winappCli/pull/387",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-03T19:00:44Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Adds winapp run command.",
+      "number": 341,
+      "url": "https://github.com/microsoft/winappCli/pull/341",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-02T22:02:02Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Bump @xmldom/xmldom from 0.8.11 to 0.8.12 in /samples/electron",
+      "number": 378,
+      "url": "https://github.com/microsoft/winappCli/pull/378",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-02T22:01:43Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump lodash from 4.17.23 to 4.18.1 in /samples/electron",
+      "number": 379,
+      "url": "https://github.com/microsoft/winappCli/pull/379",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-02T22:01:17Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Bump @xmldom/xmldom from 0.8.11 to 0.8.12 in /samples/electron-winml",
+      "number": 376,
+      "url": "https://github.com/microsoft/winappCli/pull/376",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-02T20:02:08Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Minor Rust doc updates",
+      "number": 377,
+      "url": "https://github.com/microsoft/winappCli/pull/377",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-04-02T20:01:47Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "documentation",
+        "rust"
+      ]
+    },
+    {
+      "title": "Merge v0.1 into Main",
+      "number": 31,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/31",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-02-23T22:02:46Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "fix: address security and robustness issues in dev hot-reload feature",
+      "number": 29,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/29",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-02-14T09:22:58Z",
+      "author": "Copilot",
+      "assignee": "Copilot",
+      "labels": []
+    },
+    {
+      "title": "Apply v0.1 Edits back to main",
+      "number": 27,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/27",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-01-16T22:00:03Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    }
+  ],
+  "newIssues": [
+    {
+      "title": "[Feature]: PowerShell CLI Friendly",
+      "number": 593,
+      "url": "https://github.com/microsoft/winappCli/issues/593",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-06-26T16:35:01Z",
+      "author": "soroshsabz",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "This repo is missing important files",
+      "number": 3,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/3",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-06-19T17:34:16Z",
+      "author": "microsoft-github-policy-service[bot]",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "This repo is missing a LICENSE file",
+      "number": 1,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/1",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-06-19T17:34:01Z",
+      "author": "microsoft-github-policy-service[bot]",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Evangelism for WinApp Tooling",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-06-18T20:46:59Z",
+      "author": "Unassigned",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "Manifest redundancy fixes",
+      "number": 574,
+      "url": "https://github.com/microsoft/winappCli/issues/574",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-06-11T22:19:15Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "winapp ui screenshot fails (IO_PathNotFound) when output parent directory doesn't exist — should create parent dirs",
+      "number": 572,
+      "url": "https://github.com/microsoft/winappCli/issues/572",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-06-10T09:53:13Z",
+      "author": "LegendaryBlair",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: list-windows inconsistency, missing windows without a title",
+      "number": 570,
+      "url": "https://github.com/microsoft/winappCli/issues/570",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-06-09T22:01:37Z",
+      "author": "khmyznikov",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Sign failed with certificate",
+      "number": 567,
+      "url": "https://github.com/microsoft/winappCli/issues/567",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-06-03T02:58:03Z",
+      "author": "taozuhong",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Proposal: richer element selector grammar for winapp ui",
+      "number": 563,
+      "url": "https://github.com/microsoft/winappCli/issues/563",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-06-01T15:04:21Z",
+      "author": "LegendaryBlair",
+      "assignee": "nmetulev",
+      "labels": [
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Proposal: new winapp ui send-keys verb for synthetic keyboard input",
+      "number": 562,
+      "url": "https://github.com/microsoft/winappCli/issues/562",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-06-01T14:56:38Z",
+      "author": "LegendaryBlair",
+      "assignee": "nmetulev",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Microsoft should be the listed publisher for the WinApp VSCE",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-05-29T18:28:38Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "[Bug]: Flyouts/tooltips are hard to screen capture",
+      "number": 557,
+      "url": "https://github.com/microsoft/winappCli/issues/557",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-29T18:05:21Z",
+      "author": "niels9001",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "`winapp init` crashes with unhandled InvalidOperationException in non-interactive shells (no TTY)",
+      "number": 556,
+      "url": "https://github.com/microsoft/winappCli/issues/556",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-29T17:43:44Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Update-check cache (`~/.winapp/.update-check`) not reliably written on first run — 250 ms timeout races GitHub API",
+      "number": 555,
+      "url": "https://github.com/microsoft/winappCli/issues/555",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-29T17:39:41Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Enrich winapp run --debug-output crash stacks for WinUI apps",
+      "number": 549,
+      "url": "https://github.com/microsoft/winappCli/issues/549",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-27T20:03:35Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "winapp pack --self-contained: installed MSIX fails with 0x80070002 (splash screen) — app's resources.pri is replaced by runtime's",
+      "number": 548,
+      "url": "https://github.com/microsoft/winappCli/issues/548",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-27T05:28:52Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Create .appinstaller info for a package",
+      "number": 545,
+      "url": "https://github.com/microsoft/winappCli/issues/545",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-20T07:17:46Z",
+      "author": "DrusTheAxe",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: Update check shows wrong version in debug builds",
+      "number": 538,
+      "url": "https://github.com/microsoft/winappCli/issues/538",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-18T17:46:08Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: dotnet run re-registers AppxManifest each time, resetting app state",
+      "number": 537,
+      "url": "https://github.com/microsoft/winappCli/issues/537",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-18T15:41:26Z",
+      "author": "whiskhub",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Improve how winapp ui --help is interpreted by agents",
+      "number": 535,
+      "url": "https://github.com/microsoft/winappCli/issues/535",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-14T22:13:36Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "uwp support？",
+      "number": 532,
+      "url": "https://github.com/microsoft/winappCli/issues/532",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-13T13:39:57Z",
+      "author": "yunmoxinghe",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Electron sample e2e fails: Electron 42 removed postinstall binary download",
+      "number": 524,
+      "url": "https://github.com/microsoft/winappCli/issues/524",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-07T05:13:15Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "winui parent tool that encapsulates win-dev-skills tools",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-05-06T17:45:07Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "Feature: support building winui apps via winapp run (.NET and C++)",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-05-06T17:38:53Z",
+      "author": "Unassigned",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "Feature: Add C++ templates to new command",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-05-06T17:38:25Z",
+      "author": "Unassigned",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "Feature: add command for setting up agents and skills on current machine",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-05-06T17:38:04Z",
+      "author": "Unassigned",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "Remove VS Code Extension source from repo",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-05-05T22:38:40Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "Migrate VS Code Extension to its own repo",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-05-05T22:38:13Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "[Feature]: winapp manifest add-alias should have a flag that automatically adds or updates WinAppRunUseExecutionAlias prop",
+      "number": 520,
+      "url": "https://github.com/microsoft/winappCli/issues/520",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-05T20:22:21Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Create MSIX Bundles",
+      "number": 517,
+      "url": "https://github.com/microsoft/winappCli/issues/517",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-05-03T17:19:31Z",
+      "author": "daniel-lerch",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Inconsistent reference to Package.appxmanifest over appxmanifest.xml throughout codebase",
+      "number": 510,
+      "url": "https://github.com/microsoft/winappCli/issues/510",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-29T21:47:29Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Investigate ignoring files for Copilot review",
+      "number": 509,
+      "url": "https://github.com/microsoft/winappCli/issues/509",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-29T21:43:47Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: VS Code Commands labeled \"WinApp: WinApp: ...\"",
+      "number": 501,
+      "url": "https://github.com/microsoft/winappCli/issues/501",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-24T21:05:56Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Add support for mouse/touch/keyboard UI interactions",
+      "number": 498,
+      "url": "https://github.com/microsoft/winappCli/issues/498",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-23T21:53:33Z",
+      "author": "dotMorten",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[VS Code] Support for Apps in Workspaces",
+      "number": 492,
+      "url": "https://github.com/microsoft/winappCli/issues/492",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-22T20:35:35Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[VS Code] Some WinApp CLI commands are missing from the VS Code Extension",
+      "number": 491,
+      "url": "https://github.com/microsoft/winappCli/issues/491",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-22T20:31:15Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[VS Code] Enable VS Code Extension to Build App Projects",
+      "number": 490,
+      "url": "https://github.com/microsoft/winappCli/issues/490",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-22T19:03:56Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: winapp init should be a little smarter when figuring out what project to focus on",
+      "number": 476,
+      "url": "https://github.com/microsoft/winappCli/issues/476",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T20:34:29Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Get local Win App path returns path to directory that doesn't exist",
+      "number": 475,
+      "url": "https://github.com/microsoft/winappCli/issues/475",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T20:25:08Z",
+      "author": "zateutsch",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp init doesn't create winapp.yml file for tauri",
+      "number": 474,
+      "url": "https://github.com/microsoft/winappCli/issues/474",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T20:18:28Z",
+      "author": "zateutsch",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp ui inspect inspects the app in its current state.",
+      "number": 473,
+      "url": "https://github.com/microsoft/winappCli/issues/473",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T19:22:48Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: winui ui inspect --window <hwnd>: showed more than the listed HWND",
+      "number": 472,
+      "url": "https://github.com/microsoft/winappCli/issues/472",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T19:18:46Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: Update Docs to refer to Package.appxmanifest instead of appxmanifest.xml",
+      "number": 471,
+      "url": "https://github.com/microsoft/winappCli/issues/471",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T18:55:25Z",
+      "author": "chiaramooney",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "documentation",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Using winapp run with a .NET console app swallows console messages",
+      "number": 470,
+      "url": "https://github.com/microsoft/winappCli/issues/470",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T18:53:46Z",
+      "author": "chiaramooney",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Error output on winapp run list-windows",
+      "number": 469,
+      "url": "https://github.com/microsoft/winappCli/issues/469",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T18:46:12Z",
+      "author": "zateutsch",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Create \"winapp-screenshots\" directory for winapp ui screenshot",
+      "number": 468,
+      "url": "https://github.com/microsoft/winappCli/issues/468",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T18:43:39Z",
+      "author": "zateutsch",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "winapp ui: inspect returning wrong information for wrong app",
+      "number": 467,
+      "url": "https://github.com/microsoft/winappCli/issues/467",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T18:28:51Z",
+      "author": "zateutsch",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp init` should show when a nuget package wasn't added",
+      "number": 466,
+      "url": "https://github.com/microsoft/winappCli/issues/466",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T18:06:53Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Run: PID is returned regardless of whether or not \"--detach\" is specified",
+      "number": 465,
+      "url": "https://github.com/microsoft/winappCli/issues/465",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T17:57:32Z",
+      "author": "zateutsch",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp init` says \"SDK installation skipped by user choice\" when skipped because it already is added",
+      "number": 464,
+      "url": "https://github.com/microsoft/winappCli/issues/464",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T17:53:36Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp init` can can get stuck for up to 30s without any output",
+      "number": 463,
+      "url": "https://github.com/microsoft/winappCli/issues/463",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-20T17:51:55Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Using winapp run in a project with appxmanifest.xml fails silently with no launch",
+      "number": 451,
+      "url": "https://github.com/microsoft/winappCli/issues/451",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-16T05:26:16Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Add further options for CLI build script",
+      "number": 449,
+      "url": "https://github.com/microsoft/winappCli/issues/449",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-16T04:59:17Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Publish VS Code Extension to VS Code Marketplace",
+      "number": 447,
+      "url": "https://github.com/microsoft/winappCli/issues/447",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-15T20:45:00Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Migrate GitHub Actions to ADO",
+      "number": 446,
+      "url": "https://github.com/microsoft/winappCli/issues/446",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-15T18:04:01Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Auto submit mslearn documentation on release",
+      "number": 445,
+      "url": "https://github.com/microsoft/winappCli/issues/445",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-15T17:53:18Z",
+      "author": "chiaramooney",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "documentation",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "check on compliance work - need to do another review",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-04-15T17:35:33Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "update skills and agents with learnings from win-dev-skills",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-04-15T17:34:57Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": ".NET Blog Post",
+      "number": null,
+      "url": null,
+      "repo": "Project Board",
+      "createdAt": "2026-04-15T17:32:18Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "open",
+      "isDraft": true
+    },
+    {
+      "title": "winapp init should add asset files as Content items in the csproj",
+      "number": 444,
+      "url": "https://github.com/microsoft/winappCli/issues/444",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T20:46:21Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VSCode] Properties tab is missing several properties",
+      "number": 443,
+      "url": "https://github.com/microsoft/winappCli/issues/443",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:51:26Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VSCode] Custom capabilities need type validation",
+      "number": 442,
+      "url": "https://github.com/microsoft/winappCli/issues/442",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:49:10Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Remove Application Tab when Editor has opened a Framework Package",
+      "number": 441,
+      "url": "https://github.com/microsoft/winappCli/issues/441",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:48:00Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Editor doesn't support Dependency Reordering",
+      "number": 440,
+      "url": "https://github.com/microsoft/winappCli/issues/440",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:44:35Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Dependencies tab lacks support for additional Dependency types",
+      "number": 439,
+      "url": "https://github.com/microsoft/winappCli/issues/439",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:41:28Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VSCode] In Identity Tab rename Package Name label to Name",
+      "number": 438,
+      "url": "https://github.com/microsoft/winappCli/issues/438",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:37:19Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VSCode] Change Package Dependency: label to Name:",
+      "number": 437,
+      "url": "https://github.com/microsoft/winappCli/issues/437",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:34:32Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Package Dependencies need validation for Min Version property",
+      "number": 436,
+      "url": "https://github.com/microsoft/winappCli/issues/436",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:31:39Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VSCode] PackageDependency is missing support for uap6:Optional",
+      "number": 435,
+      "url": "https://github.com/microsoft/winappCli/issues/435",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:28:26Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug[VSCode] MaxVersionTested and Min Version must be a DotQuadNumber",
+      "number": 434,
+      "url": "https://github.com/microsoft/winappCli/issues/434",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:26:28Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Package Display Name is not shown in Start Menu",
+      "number": 433,
+      "url": "https://github.com/microsoft/winappCli/issues/433",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:21:47Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Store Logos can be package-relative paths to file or MRT Keys",
+      "number": 432,
+      "url": "https://github.com/microsoft/winappCli/issues/432",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:17:33Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[VSCode] Investigate if Phone Publisher ID is needed",
+      "number": 431,
+      "url": "https://github.com/microsoft/winappCli/issues/431",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:16:32Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Processor Architecture dropdown is missing x86a64",
+      "number": 430,
+      "url": "https://github.com/microsoft/winappCli/issues/430",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:14:56Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VSCode] Publisher validation is not fully correct",
+      "number": 429,
+      "url": "https://github.com/microsoft/winappCli/issues/429",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:13:55Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VSCode] Package name doesn't enforce min length",
+      "number": 428,
+      "url": "https://github.com/microsoft/winappCli/issues/428",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:08:46Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VSCode] Package Name doesn't enforce max length",
+      "number": 427,
+      "url": "https://github.com/microsoft/winappCli/issues/427",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:07:18Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug][VS Code] Editing Package Name Fails in AppxManifest Editor",
+      "number": 426,
+      "url": "https://github.com/microsoft/winappCli/issues/426",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T17:06:22Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Local docs generation producing garbled output in some environments",
+      "number": 425,
+      "url": "https://github.com/microsoft/winappCli/issues/425",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-14T05:08:30Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Programador UTN ",
+      "number": 422,
+      "url": "https://github.com/microsoft/winappCli/issues/422",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-13T06:14:48Z",
+      "author": "unavidagenial",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp init requires a base directory when building the sample cpp app.",
+      "number": 421,
+      "url": "https://github.com/microsoft/winappCli/issues/421",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-10T16:56:07Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Agents occasionally try to build CLI using wrong methods",
+      "number": 418,
+      "url": "https://github.com/microsoft/winappCli/issues/418",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-08T23:16:16Z",
+      "author": "chiaramooney",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: Create README for WinApp CLI VS Code Extension",
+      "number": 409,
+      "url": "https://github.com/microsoft/winappCli/issues/409",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-07T19:32:27Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "documentation",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Create-debug-identity command fails when using VS Code Extension",
+      "number": 405,
+      "url": "https://github.com/microsoft/winappCli/issues/405",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-07T00:20:02Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: \"winapp init\" should add `<EnableMsixTooling>true</EnableMsixTooling>` when adding Microsoft.Windows.SDK.BuildTools package",
+      "number": 401,
+      "url": "https://github.com/microsoft/winappCli/issues/401",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-06T17:33:11Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp run looks for winapp.yaml while running project with csproj",
+      "number": 400,
+      "url": "https://github.com/microsoft/winappCli/issues/400",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-06T17:27:52Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp init` should ask to install winapp nuget package",
+      "number": 399,
+      "url": "https://github.com/microsoft/winappCli/issues/399",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-06T17:12:25Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp init --use-defaults` overwrites the winappsdk version in a csproj",
+      "number": 395,
+      "url": "https://github.com/microsoft/winappCli/issues/395",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-03T19:52:44Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Publish agent plugin to marketplace and automate for releases",
+      "number": 394,
+      "url": "https://github.com/microsoft/winappCli/issues/394",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-03T19:31:21Z",
+      "author": "nmetulev",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp run` fails when manifest is called package.appxmanifest",
+      "number": 393,
+      "url": "https://github.com/microsoft/winappCli/issues/393",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-03T19:29:26Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: CLI should check for updates",
+      "number": 392,
+      "url": "https://github.com/microsoft/winappCli/issues/392",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-03T19:11:30Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp run` fails when path is too long",
+      "number": 391,
+      "url": "https://github.com/microsoft/winappCli/issues/391",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-03T19:07:06Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[BUG] Pack command should ignore AppX folder",
+      "number": 388,
+      "url": "https://github.com/microsoft/winappCli/issues/388",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-04-03T17:48:08Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Blue Plate behind App Icon in Taskbar while Running with Debug Identity",
+      "number": 373,
+      "url": "https://github.com/microsoft/winappCli/issues/373",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-30T21:51:03Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: Create documentation for the VS Code Extension",
+      "number": 372,
+      "url": "https://github.com/microsoft/winappCli/issues/372",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-30T21:43:36Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "documentation",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: VS Code Extension requires C# VS Code Extension",
+      "number": 371,
+      "url": "https://github.com/microsoft/winappCli/issues/371",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-30T21:40:29Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: VS Code Extension fails if AppxManifest at root",
+      "number": 370,
+      "url": "https://github.com/microsoft/winappCli/issues/370",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-30T21:36:27Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: WinApp CLI commands fail when running via VS Code extension",
+      "number": 367,
+      "url": "https://github.com/microsoft/winappCli/issues/367",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-30T20:34:38Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Skills and agents not available when installed via `copilot plugin install microsoft/WinAppCli`",
+      "number": 365,
+      "url": "https://github.com/microsoft/winappCli/issues/365",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-29T17:57:14Z",
+      "author": "Megasware128",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Artifact signing support",
+      "number": 359,
+      "url": "https://github.com/microsoft/winappCli/issues/359",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-24T23:51:23Z",
+      "author": "svrooij",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Shell completion",
+      "number": 357,
+      "url": "https://github.com/microsoft/winappCli/issues/357",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-22T06:38:55Z",
+      "author": "8LWXpg",
+      "assignee": "nmetulev",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: pack does not inlcude referenced manifest.json in the appxmanifest in the final msix",
+      "number": 353,
+      "url": "https://github.com/microsoft/winappCli/issues/353",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-12T17:45:03Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Showing toast notifications requires elevated privileges",
+      "number": 352,
+      "url": "https://github.com/microsoft/winappCli/issues/352",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-10T11:59:20Z",
+      "author": "UpcraftLP",
+      "assignee": "nmetulev",
+      "labels": [
+        "bug",
+        "cli",
+        "needs-maintainer-response"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: report test coverage",
+      "number": 342,
+      "url": "https://github.com/microsoft/winappCli/issues/342",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-03T22:35:23Z",
+      "author": "nmetulev",
+      "assignee": "Copilot",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "WinAppCli",
+      "number": 336,
+      "url": "https://github.com/microsoft/winappCli/issues/336",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-03-01T19:41:39Z",
+      "author": "proxyfail",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: AppxManifest Visual Editor",
+      "number": 331,
+      "url": "https://github.com/microsoft/winappCli/issues/331",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-27T19:41:21Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "vs-code-extension",
+        "manifest-editor"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: image assets should follow proper naming conventions",
+      "number": 327,
+      "url": "https://github.com/microsoft/winappCli/issues/327",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-26T19:03:12Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Add support for adding activatable class entries based off a winmd file",
+      "number": 325,
+      "url": "https://github.com/microsoft/winappCli/issues/325",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-26T14:54:07Z",
+      "author": "skb-oai",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Add support for self-contained windows app sdk",
+      "number": 324,
+      "url": "https://github.com/microsoft/winappCli/issues/324",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-26T14:52:35Z",
+      "author": "skb-oai",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `GetLatestVersionAsync` returns unlisted NuGet package versions",
+      "number": 322,
+      "url": "https://github.com/microsoft/winappCli/issues/322",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-26T02:14:21Z",
+      "author": "azchohfi",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Asset generator improvements (SVG, .ico output)",
+      "number": 321,
+      "url": "https://github.com/microsoft/winappCli/issues/321",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-26T01:22:46Z",
+      "author": "bschoepke-openai",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: After creating msix package, installation fails if SplashScreen assets specified in manifest",
+      "number": 313,
+      "url": "https://github.com/microsoft/winappCli/issues/313",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-24T21:32:32Z",
+      "author": "chiaramooney",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Regression on RunCommandAsync",
+      "number": 308,
+      "url": "https://github.com/microsoft/winappCli/issues/308",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-21T03:02:32Z",
+      "author": "azchohfi",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Creating debug identity fails that Developer Mode is not enabled",
+      "number": 303,
+      "url": "https://github.com/microsoft/winappCli/issues/303",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-20T16:42:58Z",
+      "author": "skb-oai",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp manifest update-assets` only produces one unplated asset",
+      "number": 298,
+      "url": "https://github.com/microsoft/winappCli/issues/298",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-18T23:08:51Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature] Add CMAKE vcpkg",
+      "number": 297,
+      "url": "https://github.com/microsoft/winappCli/issues/297",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-18T21:57:24Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: store command requires dotnet 9 installed",
+      "number": 296,
+      "url": "https://github.com/microsoft/winappCli/issues/296",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-18T18:36:36Z",
+      "author": "nmetulev",
+      "assignee": "azchohfi",
+      "labels": [
+        "bug",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Add include and link path to CMakeLists.txt based on winapp.yaml",
+      "number": 292,
+      "url": "https://github.com/microsoft/winappCli/issues/292",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-13T23:53:48Z",
+      "author": "fuzhouch",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature] Add sparse packaging support (winapp sparse command group)",
+      "number": 286,
+      "url": "https://github.com/microsoft/winappCli/issues/286",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-11T23:48:02Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Native .NET (.csproj) support in winapp cli for .net applications",
+      "number": 284,
+      "url": "https://github.com/microsoft/winappCli/issues/284",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-10T18:00:21Z",
+      "author": "nmetulev",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement",
+        "dotnet"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Support $placeholder$ in manifest for dynamic executable packaging",
+      "number": 283,
+      "url": "https://github.com/microsoft/winappCli/issues/283",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-09T23:55:07Z",
+      "author": "nmetulev",
+      "assignee": "azchohfi",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Support Visual Studio and custom variable substitution in appxmanifest.xml for winapp pack and crate-debug-identity commands",
+      "number": 282,
+      "url": "https://github.com/microsoft/winappCli/issues/282",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-09T22:04:59Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Target package folder gets polluted and outdated assets reused when using package command without --manifest",
+      "number": 281,
+      "url": "https://github.com/microsoft/winappCli/issues/281",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-07T00:44:06Z",
+      "author": "nmetulev",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Do not generate dev cert during init",
+      "number": 274,
+      "url": "https://github.com/microsoft/winappCli/issues/274",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-04T23:09:18Z",
+      "author": "nmetulev",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Errors are too repetitive and should recommend verbose flag",
+      "number": 273,
+      "url": "https://github.com/microsoft/winappCli/issues/273",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-04T04:53:30Z",
+      "author": "nmetulev",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Share NuGet cache",
+      "number": 271,
+      "url": "https://github.com/microsoft/winappCli/issues/271",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-03T19:42:16Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Rust app - Failed to add package identity",
+      "number": 270,
+      "url": "https://github.com/microsoft/winappCli/issues/270",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-02-03T11:56:59Z",
+      "author": "jkavalec",
+      "assignee": "Unassigned",
+      "labels": [
+        "stale",
+        "needs-author-response",
+        "cant-repro"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: cli should have an option to setup agent.md, skills.md, and/or llm-context.md in project during init",
+      "number": 269,
+      "url": "https://github.com/microsoft/winappCli/issues/269",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-31T00:12:59Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: RNW x WinAppCLI Scenarios",
+      "number": 265,
+      "url": "https://github.com/microsoft/winappCli/issues/265",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-29T22:43:15Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: Total bullshit",
+      "number": 264,
+      "url": "https://github.com/microsoft/winappCli/issues/264",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-29T12:45:37Z",
+      "author": "PELock",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Visual Studio Build Tools are not installed",
+      "number": 261,
+      "url": "https://github.com/microsoft/winappCli/issues/261",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-26T02:40:51Z",
+      "author": "chenxiang0010",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: Documentation Using .NET as a didecar| backend with Tauri",
+      "number": 260,
+      "url": "https://github.com/microsoft/winappCli/issues/260",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-25T12:29:55Z",
+      "author": "mike7ang1rdz",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: A new manifest generates a non valid Identity name",
+      "number": 258,
+      "url": "https://github.com/microsoft/winappCli/issues/258",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-24T01:14:06Z",
+      "author": "nmetulev",
+      "assignee": "Copilot",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Support GraalVM native image",
+      "number": 254,
+      "url": "https://github.com/microsoft/winappCli/issues/254",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-23T19:55:38Z",
+      "author": "Dyskal",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]:  Support flutter",
+      "number": 253,
+      "url": "https://github.com/microsoft/winappCli/issues/253",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-23T03:52:15Z",
+      "author": "star4277",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Restore output is not accurate",
+      "number": 245,
+      "url": "https://github.com/microsoft/winappCli/issues/245",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-21T17:42:55Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp pack output indentation is broken",
+      "number": 244,
+      "url": "https://github.com/microsoft/winappCli/issues/244",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-21T17:36:54Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Create an end to end test for Electron",
+      "number": 241,
+      "url": "https://github.com/microsoft/winappCli/issues/241",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-21T06:14:54Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Move to typescript for npm package",
+      "number": 240,
+      "url": "https://github.com/microsoft/winappCli/issues/240",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-21T06:11:31Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: When generating debug-identity or packaging apps that manage their own WASDK version, we need a way to know to add the framework dependency to the manifest",
+      "number": 235,
+      "url": "https://github.com/microsoft/winappCli/issues/235",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-15T20:13:35Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "dotnet",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Should winapp manifest update-assets create an .ico file?",
+      "number": 234,
+      "url": "https://github.com/microsoft/winappCli/issues/234",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-14T19:51:43Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Init without installing SDKs doesn't mention .gitignore in the screen, but the file is created.",
+      "number": 230,
+      "url": "https://github.com/microsoft/winappCli/issues/230",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-13T23:20:35Z",
+      "author": "azchohfi",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Banner is not shown when first running the \"winapp init\" command",
+      "number": 229,
+      "url": "https://github.com/microsoft/winappCli/issues/229",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-13T23:18:07Z",
+      "author": "azchohfi",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "appxmanifest/msix improvement suggestions",
+      "number": 228,
+      "url": "https://github.com/microsoft/winappCli/issues/228",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-13T18:29:27Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Docs]: Create guide for calling non-AI Windows API from Electron native addon",
+      "number": 227,
+      "url": "https://github.com/microsoft/winappCli/issues/227",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-13T18:23:31Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp node add-electron-debug-identity` output is broken",
+      "number": 225,
+      "url": "https://github.com/microsoft/winappCli/issues/225",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-12T23:23:56Z",
+      "author": "nmetulev",
+      "assignee": "azchohfi",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Question]: Why did you choose [MSIX packaging with external location] vs. [in-place registration]?",
+      "number": 224,
+      "url": "https://github.com/microsoft/winappCli/issues/224",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-12T21:28:17Z",
+      "author": "riverar",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Consider abandoning Dev Mode switch",
+      "number": 223,
+      "url": "https://github.com/microsoft/winappCli/issues/223",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-12T21:22:40Z",
+      "author": "riverar",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Too many emojis emitted in `winapp init` output",
+      "number": 222,
+      "url": "https://github.com/microsoft/winappCli/issues/222",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-12T18:15:58Z",
+      "author": "riverar",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: manifest update-assets should update assets linked in manifest",
+      "number": 218,
+      "url": "https://github.com/microsoft/winappCli/issues/218",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-09T00:11:47Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp manifest generate --logo-path logo.jpg` does not generate image assets from image",
+      "number": 217,
+      "url": "https://github.com/microsoft/winappCli/issues/217",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-01-08T05:58:30Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    }
+  ],
+  "releases": [
+    {
+      "name": "Release v0.4.0",
+      "tagName": "v0.4.0",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.4.0",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-06-25T17:09:28Z",
+      "author": "azchohfi",
+      "prerelease": false,
+      "body": "Version: `0.4.0`\r\nCommit: `6bcad3ae827f0ecf34773ad5e7dbfe9e1920a712`\r\n\r\n## New Features  \r\n- **Integrate JS/TS WinRT bindings** (#536) — The `winapp init` command now supports JavaScript and TypeScript WinRT bindings, enabling developers to manage their projects with these languages directly.  \r\n- **Add \"ui hover\" command** (#583) — Introduced a new command `ui hover` to capture tooltips, flyouts, and other UI elements, enhancing debugging and interaction testing.  \r\n- **List visible windows opt"
+    },
+    {
+      "name": "Release v0.3.2",
+      "tagName": "v0.3.2",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.3.2",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-06-03T00:36:26Z",
+      "author": "azchohfi",
+      "prerelease": false,
+      "body": "Version: `0.3.2`\r\nCommit: `1c6e75e90f3d0eff890021335261254fa01dd8c7`\r\n\r\n## New Features\r\n- **MSIX Bundle Support for `pack` Command** (#546) — The `pack` command now supports creating MSIX bundles, streamlining the packaging process for Windows apps.\r\n- **App Update Notification** (#503) — A daily check now notifies users of any available updates for the CLI on their first command run each day, ensuring developers stay informed about new versions.\r\n- **Enhanced `winapp init` Behavior** (#530) — "
+    },
+    {
+      "name": "Release v0.3.1",
+      "tagName": "v0.3.1",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.3.1",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-05-01T19:10:33Z",
+      "author": "azchohfi",
+      "prerelease": false,
+      "body": "Version: `0.3.1`\r\nCommit: `c8ada4a403c43b96780b87abc454cba51f649c60`\r\n\r\n## Breaking Changes\r\n- **`winapp ui --json` envelope reshape** (#511) — JSON output shapes are not backward compatible. Update any scripts/tools parsing these outputs:\r\n  - `ui inspect --json` — elements are now nested under `{ depth, interactive, hideDisabled, hideOffscreen, windows: [{ hwnd, title, className, elementCount, elements: [{ ..., children: [...] }] }] }` (was a flat `{ elements: [...] }` list). Per-element `id`,"
+    },
+    {
+      "name": "Release v0.3.0",
+      "tagName": "v0.3.0",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.3.0",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-04-22T06:19:05Z",
+      "author": "azchohfi",
+      "prerelease": false,
+      "body": "Version: `0.3.0`\r\nCommit: `f3ce442ddd1ea2aea3ada40a0d7a5a2a411cfe00`\r\n\r\n## New Features\r\n- **`winapp run` command** (#341) — Introduces the `winapp run` command allowing developers to pack a folder and run their application as a packaged app, streamlining the process of launching packaged applications. Usage example:\r\n  ```bash\r\n  winapp run .\\bin\\Debug\\net10.0-windows10.0.26100.0\\win-x64 --manifest .\\appxmanifest.xml\r\n  ```\r\n- **UI automation with `winapp ui`** (#380) — Adds a new command group"
+    },
+    {
+      "name": "Release v0.2.1",
+      "tagName": "v0.2.1",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.2.1",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-03-30T18:13:05Z",
+      "author": "azchohfi",
+      "prerelease": false,
+      "body": "Version: `0.2.1`\r\nCommit: `765f8f5de86369dd154bec8af070d848133029c1`\r\n\r\n## New Features\r\n- **Auto-generate npm Commands and Documentation** (#302) — All `winapp CLI` commands are now exposed as typed JS/TS functions in the npm package. This enhancement allows seamless importing and usage of commands in projects with auto-generated exports to stay up-to-date.\r\n  ```typescript\r\n  import { init, packageApp, certGenerate } from '@microsoft/winappcli';\r\n  ```\r\n- **New `cert info` Command** (#305) — A"
+    },
+    {
+      "name": "Release v0.2.0",
+      "tagName": "v0.2.0",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.2.0",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-02-27T20:25:00Z",
+      "author": "azchohfi",
+      "prerelease": false,
+      "body": "Version: `0.2.0`\r\nCommit: `a4930bfb2ebf3c9a76678b9b9e20044b3219f238`\r\n\r\n## New Features\r\n- **Support for Qualified Names in Appxmanifest** (#320) — Allows qualified names in the `Appxmanifest` file, enhancing flexibility in defining app identities.\r\n- **New `winapp create-external-catalog` Command** (#312) — Introduces a new command to create an external catalog, streamlining asset management for developers.\r\n- **Enable Running Microsoft Store Developer CLI Commands via a New 'store' Subcommand*"
+    },
+    {
+      "name": "Release v0.1.10",
+      "tagName": "v0.1.10",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.1.10",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-01-22T02:42:23Z",
+      "author": "azchohfi",
+      "prerelease": false,
+      "body": "🚀 **Automated Release Build**\r\n\r\nVersion: `0.1.10`\r\nCommit: `5af020978f5d9c2db8fdafa27c9eefc190446468`\r\n\r\n## Installation Options\r\n\r\n### 📦 MSIX Installer (Recommended)\r\n1. Download `winappcli_x64.msix` for x64 or `winappcli_arm64.msix` for ARM64\r\n2. Double-click to install\r\n3. Automatically added to PATH\r\n\r\n### 📦 Standalone CLI Binaries\r\n1. Download `winappcli-x64.zip` for x64 or `winappcli-arm64.zip` for ARM64\r\n2. Extract to your desired location\r\n3. Add to PATH or run directly: `winapp.exe`"
+    },
+    {
+      "name": "Release v0.1.9",
+      "tagName": "v0.1.9",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.1.9",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-01-21T00:21:39Z",
+      "author": "azchohfi",
+      "prerelease": true,
+      "body": "🚀 **Automated Release Build**\n\nVersion: `0.1.9`\nCommit: `e54be238ec393c8f3172bedcd897ab3aec536d87`\n\n## Installation Options\n\n### 📦 MSIX Installer (Recommended)\n1. Download `winappcli_x64.msix` for x64 or `winappcli_arm64.msix` for ARM64\n2. Double-click to install\n3. Automatically added to PATH\n\n### 📦 Standalone CLI Binaries\n1. Download `winappcli-x64.zip` for x64 or `winappcli-arm64.zip` for ARM64\n2. Extract to your desired location\n3. Add to PATH or run directly: `winapp.exe`\n\n### 📚 NPM Pac"
+    }
+  ]
+}

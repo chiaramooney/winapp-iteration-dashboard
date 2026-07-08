@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iteration Review Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <div class="header">
+      <h1>📋 Iteration Review Dashboard</h1>
+      <p class="date-range" id="repoLine">Loading…</p>
+    </div>
+
+    <div class="controls">
+      <div class="control-group">
+        <label for="preset">Month</label>
+        <select id="preset"></select>
+      </div>
+      <div class="control-group">
+        <label for="startDate">Start</label>
+        <input type="date" id="startDate">
+      </div>
+      <div class="control-group">
+        <label for="endDate">End</label>
+        <input type="date" id="endDate">
+      </div>
+      <button id="applyBtn">Apply</button>
+      <button id="resetBtn" class="secondary">Latest month</button>
+    </div>
+
+    <div id="content"></div>
+
+    <div class="footer" id="footer"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

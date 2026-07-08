@@ -1,0 +1,15 @@
+{
+  "name": "iteration-dashboard",
+  "version": "1.0.0",
+  "description": "Generate an HTML iteration review dashboard from GitHub project data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node index.js",
+    "build-data": "node build-data.js"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^7.0.0",
+    "@octokit/rest": "^20.0.0"
+  }
+}
