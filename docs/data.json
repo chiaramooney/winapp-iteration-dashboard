@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T22:25:48.940Z",
+  "generatedAt": "2026-07-24T16:38:59.745Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -18,7 +18,22 @@
     "2026-05",
     "2026-06"
   ],
+  "collectedDays": [
+    "2026-07-23"
+  ],
   "closedIssues": [
+    {
+      "title": "sign: default to the just-packed MSIX instead of a native file picker into a hidden folder",
+      "number": 37,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/37",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-23T23:09:57Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
     {
       "title": "[Feature]: winapp manifest add-alias should have a flag that automatically adds or updates WinAppRunUseExecutionAlias prop",
       "number": 520,
@@ -2464,6 +2479,28 @@
   ],
   "mergedPRs": [
     {
+      "title": "feat(sign): default to QuickPick of workspace MSIX artifacts",
+      "number": 84,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/84",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-23T23:09:56Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Adopt package imports for WinRT bindings and align AI samples",
+      "number": 37,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/37",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-07-23T22:19:53Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": []
+    },
+    {
       "title": "Add minimal checkout-only test pipeline",
       "number": 27,
       "url": "https://github.com/microsoft/WinAppVSCE/pull/27",
@@ -3992,6 +4029,19 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "test: add unit coverage for pickSignableFile/pickCertificateFile Browse and zero-results dialog branches",
+      "number": 102,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/102",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-23T23:33:13Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
     {
       "title": "[Feature]: PowerShell CLI Friendly",
       "number": 593,
