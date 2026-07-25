@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T16:38:59.745Z",
+  "generatedAt": "2026-07-25T07:49:09.548Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -19,9 +19,59 @@
     "2026-06"
   ],
   "collectedDays": [
-    "2026-07-23"
+    "2026-07-23",
+    "2026-07-24"
   ],
   "closedIssues": [
+    {
+      "title": "[Feature]: Artifact signing support",
+      "number": 359,
+      "url": "https://github.com/microsoft/winappCli/issues/359",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-24T22:57:25Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "refactor: consolidate artifact type definitions into a shared module",
+      "number": 78,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/78",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-24T18:14:38Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "test: add coverage for post-pack Sign action path in signPackage",
+      "number": 83,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/83",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-24T17:43:16Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "test: add E2E coverage for sign QuickPick Browse and cancel paths",
+      "number": 79,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/79",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-24T17:43:16Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
     {
       "title": "sign: default to the just-packed MSIX instead of a native file picker into a hidden folder",
       "number": 37,
@@ -2479,6 +2529,36 @@
   ],
   "mergedPRs": [
     {
+      "title": "Azure artifact signing with new az-sign command",
+      "number": 595,
+      "url": "https://github.com/microsoft/winappCli/pull/595",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-24T22:57:24Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "refactor: consolidate artifact type definitions into shared module",
+      "number": 101,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/101",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-24T18:14:37Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "test: add sign flow unit tests and E2E coverage for Browse/cancel paths",
+      "number": 100,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/100",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-24T17:43:15Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
       "title": "feat(sign): default to QuickPick of workspace MSIX artifacts",
       "number": 84,
       "url": "https://github.com/microsoft/WinAppVSCE/pull/84",
@@ -4029,6 +4109,154 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "Add integration tests for XAML Language Server client/extension wiring",
+      "number": 115,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/115",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T19:37:51Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "testing"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Relative workingDirectory in launch.json resolves against extension host cwd, not workspace",
+      "number": 112,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/112",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:43:09Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "debugger"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Add \"Open launch.json\" action button to inputFolder validation errors",
+      "number": 111,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/111",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:40:53Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Docs: inputFolder description doesn't document validation behavior",
+      "number": 110,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/110",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:40:42Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "UX: Surface persistent banner when schema validation is unavailable",
+      "number": 109,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/109",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:25:32Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Security: Add integrity verification for NuGet fallback downloads in sync-schemas",
+      "number": 108,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/108",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:25:30Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Security: Scope webview localResourceRoots to manifest package root only",
+      "number": 107,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/107",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:25:28Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Feature: Validate element text content against XSD simple types",
+      "number": 106,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/106",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:25:10Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Refactor: Consider DOM-backed XML context detection for IntelliSense",
+      "number": 105,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/105",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:00:21Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "tech-debt"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Refactor: Extract shared isManifestPath helper",
+      "number": 104,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/104",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:00:21Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "tech-debt"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Refactor: Extract shared pattern-type inheritance resolver",
+      "number": 103,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/103",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-24T18:00:21Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "tech-debt"
+      ],
+      "state": "open"
+    },
     {
       "title": "test: add unit coverage for pickSignableFile/pickCertificateFile Browse and zero-results dialog branches",
       "number": 102,
