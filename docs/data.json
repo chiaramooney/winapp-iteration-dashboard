@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T08:06:32.365Z",
+  "generatedAt": "2026-07-27T09:28:00.637Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -21,7 +21,8 @@
   "collectedDays": [
     "2026-07-23",
     "2026-07-24",
-    "2026-07-25"
+    "2026-07-25",
+    "2026-07-26"
   ],
   "closedIssues": [
     {
