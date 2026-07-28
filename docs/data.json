@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T09:28:00.637Z",
+  "generatedAt": "2026-07-28T08:13:31.964Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -22,9 +22,49 @@
     "2026-07-23",
     "2026-07-24",
     "2026-07-25",
-    "2026-07-26"
+    "2026-07-26",
+    "2026-07-27"
   ],
   "closedIssues": [
+    {
+      "title": "Support CREATE with templates for app setup",
+      "number": 116,
+      "url": "https://github.com/microsoft/winappCli/issues/116",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-27T21:04:48Z",
+      "assignee": "nmetulev",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Replace native OS dialogs with in-editor QuickPicks and add progress UI for long operations",
+      "number": 39,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/39",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-27T16:58:33Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "F5 silently falls back to a native folder picker when launch.json inputFolder is invalid",
+      "number": 33,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/33",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-27T16:58:09Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "debugger"
+      ],
+      "state": "closed"
+    },
     {
       "title": "[Feature]: Artifact signing support",
       "number": 359,
@@ -2531,6 +2571,106 @@
   ],
   "mergedPRs": [
     {
+      "title": "Backfill MS Learn doc fixes and add validation gate",
+      "number": 685,
+      "url": "https://github.com/microsoft/winappCli/pull/685",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-27T17:28:14Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": []
+    },
+    {
+      "title": "Replace native OS folder pickers in pack/run with in-editor QuickPicks",
+      "number": 114,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/114",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:58:32Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Validate inputFolder in debugger before launching app",
+      "number": 113,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/113",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:58:07Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "build(deps-dev): Bump eslint from 10.7.0 to 10.8.0",
+      "number": 122,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/122",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:31:28Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "build(deps-dev): Bump @playwright/test from 1.61.1 to 1.62.0",
+      "number": 121,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/121",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:31:28Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "build(deps-dev): Bump typescript-eslint from 8.64.0 to 8.65.0",
+      "number": 120,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/120",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:31:28Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "build(deps-dev): Bump @vscode/test-electron from 3.0.0 to 3.1.0",
+      "number": 119,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/119",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:31:28Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "build(deps): Bump actions/download-artifact from 4 to 8",
+      "number": 117,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/117",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:31:28Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "build(deps): Bump actions/cache from 4 to 6",
+      "number": 118,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/118",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:31:28Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "build(deps): Consolidate dependabot dependency updates",
+      "number": 123,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/123",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-27T16:31:26Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
       "title": "Azure artifact signing with new az-sign command",
       "number": 595,
       "url": "https://github.com/microsoft/winappCli/pull/595",
@@ -4111,6 +4251,71 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "[Bug]: Repeated extension child elements are ambiguous to edit in visual editor",
+      "number": 128,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/128",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-27T22:47:02Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Tech Debt] Consolidate manifest file detection into a shared helper",
+      "number": 127,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/127",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-27T22:35:48Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "tech-debt"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: Unclosed element doesn't show parse error",
+      "number": 126,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/126",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-27T18:35:39Z",
+      "author": "zateutsch",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: Deleting required field in manifest should show warning",
+      "number": 125,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/125",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-27T18:29:35Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: rescap shows as unknown",
+      "number": 124,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/124",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-27T18:14:14Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
     {
       "title": "Add integration tests for XAML Language Server client/extension wiring",
       "number": 115,
