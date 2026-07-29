@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T08:13:31.964Z",
+  "generatedAt": "2026-07-29T08:18:18.731Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -23,9 +23,22 @@
     "2026-07-24",
     "2026-07-25",
     "2026-07-26",
-    "2026-07-27"
+    "2026-07-27",
+    "2026-07-28"
   ],
   "closedIssues": [
+    {
+      "title": "[Feature]: Harden factual UIA JSON output",
+      "number": 693,
+      "url": "https://github.com/microsoft/winappCli/issues/693",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-28T23:18:22Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
     {
       "title": "Support CREATE with templates for app setup",
       "number": 116,
@@ -4251,6 +4264,85 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "[Bug]: `ui get-property` reports ordinary text boxes as password fields",
+      "number": 694,
+      "url": "https://github.com/microsoft/winappCli/issues/694",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-28T23:18:19Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Harden factual UIA JSON output",
+      "number": 693,
+      "url": "https://github.com/microsoft/winappCli/issues/693",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-28T23:13:00Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Add bounded ui tab-trace focus diagnostic",
+      "number": 692,
+      "url": "https://github.com/microsoft/winappCli/issues/692",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-28T21:53:04Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Support hosted cross-process UIA targeting",
+      "number": 691,
+      "url": "https://github.com/microsoft/winappCli/issues/691",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-28T21:46:14Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Add agent-readable frame artifacts to ui record",
+      "number": 689,
+      "url": "https://github.com/microsoft/winappCli/issues/689",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-28T06:19:37Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "ui-automation"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Add first-class native picker actions to winapp ui",
+      "number": 688,
+      "url": "https://github.com/microsoft/winappCli/issues/688",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-28T06:13:40Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
     {
       "title": "[Bug]: Repeated extension child elements are ambiguous to edit in visual editor",
       "number": 128,
