@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T08:18:18.731Z",
+  "generatedAt": "2026-07-30T08:06:06.323Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -24,7 +24,8 @@
     "2026-07-25",
     "2026-07-26",
     "2026-07-27",
-    "2026-07-28"
+    "2026-07-28",
+    "2026-07-29"
   ],
   "closedIssues": [
     {
@@ -2583,6 +2584,36 @@
     }
   ],
   "mergedPRs": [
+    {
+      "title": "Fix winapp-pr web installer closing the caller's terminal",
+      "number": 698,
+      "url": "https://github.com/microsoft/winappCli/pull/698",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-29T23:46:41Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Add winapp-pr, a helper for installing CLI MSIX builds from PRs",
+      "number": 697,
+      "url": "https://github.com/microsoft/winappCli/pull/697",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-29T22:42:23Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "pr-review: rebuild the skill at a third the size, and stop it driving scope creep",
+      "number": 696,
+      "url": "https://github.com/microsoft/winappCli/pull/696",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-29T20:01:49Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
     {
       "title": "Backfill MS Learn doc fixes and add validation gate",
       "number": 685,
