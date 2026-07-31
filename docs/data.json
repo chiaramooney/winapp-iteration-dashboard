@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T08:06:06.323Z",
+  "generatedAt": "2026-07-31T08:32:09.953Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -25,7 +25,8 @@
     "2026-07-26",
     "2026-07-27",
     "2026-07-28",
-    "2026-07-29"
+    "2026-07-29",
+    "2026-07-30"
   ],
   "closedIssues": [
     {
@@ -2585,6 +2586,46 @@
   ],
   "mergedPRs": [
     {
+      "title": "Add winapp-pr -Update, -Help, and build freshness in the picker",
+      "number": 702,
+      "url": "https://github.com/microsoft/winappCli/pull/702",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-30T23:02:57Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "ci: make sample-test Pester install resilient to PSGallery flake",
+      "number": 701,
+      "url": "https://github.com/microsoft/winappCli/pull/701",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-30T22:06:34Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Offer a one-command build install in the PR metrics comment",
+      "number": 699,
+      "url": "https://github.com/microsoft/winappCli/pull/699",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-30T06:16:41Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Offer to set up the GitHub CLI in winapp-pr instead of just demanding it",
+      "number": 700,
+      "url": "https://github.com/microsoft/winappCli/pull/700",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-30T06:15:23Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
       "title": "Fix winapp-pr web installer closing the caller's terminal",
       "number": 698,
       "url": "https://github.com/microsoft/winappCli/pull/698",
@@ -4295,6 +4336,86 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "Open Manifest Editor command is hard to discover from Command Palette",
+      "number": 132,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/132",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-30T22:35:12Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Test coverage gaps: diagnostics lifecycle, save-flush, image-path, nested properties",
+      "number": 131,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/131",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-30T22:35:02Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "VSIX can ship without bundled CLI binaries; CI doesn't exercise release packaging",
+      "number": 130,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/130",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-30T22:34:47Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "CI supply-chain risk: unpinned CLI download with GH_TOKEN exposure",
+      "number": 129,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/129",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-30T22:34:37Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "security"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: find-ui is unusable behind proxies and in agent sandboxes (raw.githubusercontent.com blocked) — bake and embed the corpus",
+      "number": 704,
+      "url": "https://github.com/microsoft/winappCli/issues/704",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-30T21:49:59Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Publish sample indexes upstream (WinUI Gallery + Community Toolkit) so find-ui stops scraping",
+      "number": 703,
+      "url": "https://github.com/microsoft/winappCli/issues/703",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-30T21:26:52Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
     {
       "title": "[Bug]: `ui get-property` reports ordinary text boxes as password fields",
       "number": 694,
