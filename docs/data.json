@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T08:32:09.953Z",
+  "generatedAt": "2026-08-03T17:58:07.040Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -26,7 +26,8 @@
     "2026-07-27",
     "2026-07-28",
     "2026-07-29",
-    "2026-07-30"
+    "2026-07-30",
+    "2026-08-02"
   ],
   "closedIssues": [
     {
@@ -4336,6 +4337,46 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "IntelliSense: validate element text content against XSD simple types",
+      "number": 135,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/135",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-02T00:17:20Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "IntelliSense: add per-document analysis cache to avoid redundant XML parsing",
+      "number": 134,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/134",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-02T00:04:16Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "performance"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "IntelliSense: auto-insert xmlns declarations for undeclared namespace completions",
+      "number": 133,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/133",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-02T00:04:07Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
     {
       "title": "Open Manifest Editor command is hard to discover from Command Palette",
       "number": 132,
