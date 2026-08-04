@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:58:07.040Z",
+  "generatedAt": "2026-08-04T08:17:27.652Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -27,9 +27,23 @@
     "2026-07-28",
     "2026-07-29",
     "2026-07-30",
-    "2026-08-02"
+    "2026-08-02",
+    "2026-08-03"
   ],
   "closedIssues": [
+    {
+      "title": "Relative workingDirectory in launch.json resolves against extension host cwd, not workspace",
+      "number": 112,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/112",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-03T22:22:43Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "debugger"
+      ],
+      "state": "closed"
+    },
     {
       "title": "[Feature]: Harden factual UIA JSON output",
       "number": 693,
@@ -2586,6 +2600,16 @@
     }
   ],
   "mergedPRs": [
+    {
+      "title": "Resolve relative launch.json workingDirectory against the workspace folder",
+      "number": 116,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/116",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-03T22:22:42Z",
+      "author": "Sanjays2402",
+      "assignee": "Sanjays2402",
+      "labels": []
+    },
     {
       "title": "Add winapp-pr -Update, -Help, and build freshness in the picker",
       "number": 702,
