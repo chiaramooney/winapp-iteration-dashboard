@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T08:14:57.464Z",
+  "generatedAt": "2026-08-05T17:53:44.724Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -16,7 +16,9 @@
     "2026-03",
     "2026-04",
     "2026-05",
-    "2026-06"
+    "2026-06",
+    "2026-07",
+    "2026-08"
   ],
   "collectedDays": [
     "2026-07-23",
@@ -32,6 +34,32 @@
     "2026-08-04"
   ],
   "closedIssues": [
+    {
+      "title": "[Feature]: Support hosted cross-process UIA targeting",
+      "number": 691,
+      "url": "https://github.com/microsoft/winappCli/issues/691",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-08-05T17:45:45Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Project-mode support for winapp run (build and launch from a .csproj)",
+      "number": 633,
+      "url": "https://github.com/microsoft/winappCli/issues/633",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-08-05T17:39:58Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "dotnet",
+        "cli"
+      ],
+      "state": "closed"
+    },
     {
       "title": "sign: QuickPick only discovers MSIX packages, not executables",
       "number": 77,
@@ -390,6 +418,509 @@
       "labels": [
         "enhancement"
       ],
+      "state": "closed"
+    },
+    {
+      "title": "pack: remember QuickPick choices and surface/verify target architecture",
+      "number": 36,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/36",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T21:57:31Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Debug prompt handler runs unawaited, causing potential race with next queue step",
+      "number": 92,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/92",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:29:05Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] createDebugIdentity uses file picker but driver assumes folder picker",
+      "number": 96,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/96",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:29:03Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Queue poller permanently drops partially-written request files",
+      "number": 87,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/87",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:29:00Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Driver extension commands missing category and lack error feedback",
+      "number": 89,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/89",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:28:58Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Smoke test scripts don't exit non-zero on assertion failures",
+      "number": 94,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/94",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:28:55Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "docs: update README sign command description to reflect QuickPick behavior",
+      "number": 76,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/76",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:23:30Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "test: add E2E coverage for certificate QuickPick flow",
+      "number": 98,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/98",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:19:50Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Campaign still uses legacy one-shot driver instead of validated queue helpers",
+      "number": 91,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/91",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:17:03Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Fallback project discovery can pick wrong .csproj in multi-project workspaces",
+      "number": 85,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/85",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:17:00Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Workspace trust unconditionally disabled in VS Code drive sessions",
+      "number": 88,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/88",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:16:58Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Driver executeCommand fire-and-forget means r.done is unreliable for success gating",
+      "number": 95,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/95",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:16:55Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack: arch detection false positives from ancestor path segments",
+      "number": 81,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/81",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:04:36Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "test: getMachineArch 'unknown' fallback branch lacks coverage",
+      "number": 80,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/80",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T20:01:38Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Refactor: Replace regex-based extension-field parsing with shared DOM-based walker",
+      "number": 72,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/72",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T18:45:20Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Consolidate XML parsing utilities between manifest-editor and manifest-intellisense",
+      "number": 69,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/69",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T17:37:36Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "tech-debt"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Consider narrowing IntelliSense activation event from onLanguage:xml",
+      "number": 67,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/67",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-22T17:35:48Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: MSIX Bundle version doesn't match the MSIX versions",
+      "number": 677,
+      "url": "https://github.com/microsoft/winappCli/issues/677",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-21T20:55:42Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack: show a completion notification with Reveal/Sign/Install actions for the built MSIX",
+      "number": 62,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/62",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-21T20:40:28Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "F5/WinApp debugger has an undeclared dependency on the C# extension (first-run failure)",
+      "number": 32,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/32",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-21T20:06:28Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "debugger"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "certGenerate reports 'Access denied' as failure even though the cert is generated (elevation)",
+      "number": 34,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/34",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-21T05:24:30Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "WinApp debugger: startDebugging returns false even when the app launches successfully",
+      "number": 40,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/40",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-21T05:23:00Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "debugger"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack: surface the built MSIX (rename + visible folder + completion notification) instead of burying it",
+      "number": 35,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/35",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-20T18:51:42Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Revert NuGet-client migration (#629/#647) — ADO main builds failing on prerelease NuGet.* from non-nuget.org feed",
+      "number": 653,
+      "url": "https://github.com/microsoft/winappCli/issues/653",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-17T18:42:06Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp ui send-keys --via send-input` silently drops characters when sending long text",
+      "number": 657,
+      "url": "https://github.com/microsoft/winappCli/issues/657",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-17T18:19:34Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp ui send-keys` `\\n` escape in `text=` is silently dropped while `\\r` works correctly",
+      "number": 658,
+      "url": "https://github.com/microsoft/winappCli/issues/658",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-17T17:33:32Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Inconsistent out-of-window coordinate validation across `ui` input verbs (touch/pen reject, click/drag/hover/scroll accept)",
+      "number": 661,
+      "url": "https://github.com/microsoft/winappCli/issues/661",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-17T17:33:14Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp ui send-keys --via post-message` reports success but delivers no input to target controls",
+      "number": 655,
+      "url": "https://github.com/microsoft/winappCli/issues/655",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-17T17:32:53Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp ui send-keys` reports success for `ctrl+alt+del` with `--allow-system-keys` but Windows always blocks it",
+      "number": 656,
+      "url": "https://github.com/microsoft/winappCli/issues/656",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-17T15:14:02Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Add support for mouse/touch/keyboard UI interactions",
+      "number": 498,
+      "url": "https://github.com/microsoft/winappCli/issues/498",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-16T20:35:24Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `--symbols` is silently ignored when `--debug-output` is not passed",
+      "number": 662,
+      "url": "https://github.com/microsoft/winappCli/issues/662",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-16T20:31:36Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `run --debug-output --json` fails silently — exit 1 with no output (no message, no JSON error)",
+      "number": 659,
+      "url": "https://github.com/microsoft/winappCli/issues/659",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-16T20:31:36Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Code coverage metric is misleading — generated interop code dominates the denominator",
+      "number": 630,
+      "url": "https://github.com/microsoft/winappCli/issues/630",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-15T05:40:30Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp ui set-value fails on RichEditBox / TextPattern-only edit controls (no ValuePattern fallback)",
+      "number": 620,
+      "url": "https://github.com/microsoft/winappCli/issues/620",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-14T22:16:51Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: MSLearn pipeline does not have the correct credentials to push",
+      "number": 627,
+      "url": "https://github.com/microsoft/winappCli/issues/627",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-14T20:49:38Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Arguments starting with \"@\" are swallowed by response-file expansion (e.g. winapp ui search \"@assistant\")",
+      "number": 619,
+      "url": "https://github.com/microsoft/winappCli/issues/619",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-14T20:12:05Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack warns about the devcert.pfx that certGenerate itself created",
+      "number": 38,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/38",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-07-14T17:29:52Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Proposal: richer element selector grammar for winapp ui",
+      "number": 563,
+      "url": "https://github.com/microsoft/winappCli/issues/563",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-12T00:28:46Z",
+      "assignee": "nmetulev",
+      "labels": [
+        "stale",
+        "needs-author-response"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Enrich winapp run --debug-output crash stacks for WinUI apps",
+      "number": 549,
+      "url": "https://github.com/microsoft/winappCli/issues/549",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-11T04:41:37Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Investigate ignoring files for Copilot review",
+      "number": 509,
+      "url": "https://github.com/microsoft/winappCli/issues/509",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-09T23:07:35Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp ui inspect --json serializes nested children as strings, not JSON arrays",
+      "number": 608,
+      "url": "https://github.com/microsoft/winappCli/issues/608",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-09T23:06:19Z",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "Proposal: new winapp ui send-keys verb for synthetic keyboard input",
+      "number": 562,
+      "url": "https://github.com/microsoft/winappCli/issues/562",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-07-06T17:29:01Z",
+      "assignee": "nmetulev",
+      "labels": [],
       "state": "closed"
     },
     {
@@ -3000,6 +3531,26 @@
       "labels": []
     },
     {
+      "title": "fix(winapp-pr): paginate the artifacts query so a busy run's package is findable",
+      "number": 705,
+      "url": "https://github.com/microsoft/winappCli/pull/705",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-31T21:32:08Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Add `.csproj` \"project mode\" to `winapp run`",
+      "number": 612,
+      "url": "https://github.com/microsoft/winappCli/pull/612",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-07-31T05:20:36Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
       "title": "Add winapp-pr -Update, -Help, and build freshness in the picker",
       "number": 702,
       "url": "https://github.com/microsoft/winappCli/pull/702",
@@ -3217,6 +3768,190 @@
       "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/37",
       "repo": "microsoft/electron-on-windows-gallery",
       "mergedAt": "2026-07-23T22:19:53Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": []
+    },
+    {
+      "title": "feat: surface target architecture and warn on mismatch during pack",
+      "number": 93,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/93",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-22T21:57:29Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Move UX battle-test agent into repo as vsce-testing skill",
+      "number": 97,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/97",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-22T21:56:54Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Bump linkify-it from 5.0.1 to 5.0.2",
+      "number": 74,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/74",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-21T20:42:00Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "Bump typescript-eslint from 8.63.0 to 8.64.0",
+      "number": 66,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/66",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-21T20:41:28Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "Bump actions/setup-node from 6 to 7",
+      "number": 65,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/65",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-21T20:41:00Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": []
+    },
+    {
+      "title": "pack: show a completion notification with Reveal/Sign/Install actions (#62)",
+      "number": 64,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/64",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-21T20:40:27Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Make F5 auto-install the required debugger extension on first run (#32)",
+      "number": 55,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/55",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-21T20:06:26Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Route dev-cert install through an elevated window instead of failing (#34)",
+      "number": 63,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/63",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-21T05:24:29Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Don't orphan the winapp run process when debug teardown races",
+      "number": 57,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/57",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-21T05:23:34Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Fix WinApp debugger: complete DAP handshake so startDebugging returns true (#40)",
+      "number": 48,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/48",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-21T05:22:59Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "CI: post VSIX download + size-delta comment on PRs",
+      "number": 53,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/53",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-20T20:16:21Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Fix packaged AI samples by including bindings and compiled modules",
+      "number": 36,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/36",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-07-15T23:19:12Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": []
+    },
+    {
+      "title": "Consolidate Dependabot dev-dependency bumps (eslint, tsx, @types/node, typescript-eslint)",
+      "number": 49,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/49",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-15T19:29:23Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Bump VS Code extension version to 0.2.2 for development",
+      "number": 26,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/26",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-10T21:54:46Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Add VS Code publisher signing and authenticated vsce publish to release pipeline",
+      "number": 41,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/41",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-07-10T21:54:11Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Pin Fluent UI Web Components CDN to 2.6.1",
+      "number": 35,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/35",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-07-08T15:38:01Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": []
+    },
+    {
+      "title": "Fix CodeQL DOM XSS warnings in Fluent controls",
+      "number": 34,
+      "url": "https://github.com/microsoft/electron-on-windows-gallery/pull/34",
+      "repo": "microsoft/electron-on-windows-gallery",
+      "mergedAt": "2026-07-08T15:37:16Z",
       "author": "lei9444",
       "assignee": "lei9444",
       "labels": []
@@ -4751,6 +5486,90 @@
   ],
   "newIssues": [
     {
+      "title": "[Docs]: Replace applicable UWP sample references with migrated WinUI 3 samples",
+      "number": 713,
+      "url": "https://github.com/microsoft/winappCli/issues/713",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-05T17:16:55Z",
+      "author": "niels9001",
+      "assignee": "niels9001",
+      "labels": [
+        "documentation"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Samples]: Define how migrated samples land in WindowsAppSDK-Samples",
+      "number": 712,
+      "url": "https://github.com/microsoft/winappCli/issues/712",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-05T17:16:51Z",
+      "author": "niels9001",
+      "assignee": "niels9001",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "samples"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Samples]: Resolve the remaining WinUI 3 sample migration blockers",
+      "number": 711,
+      "url": "https://github.com/microsoft/winappCli/issues/711",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-05T17:16:48Z",
+      "author": "niels9001",
+      "assignee": "niels9001",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "samples"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Samples]: Port the remaining viable Windows samples to WinUI 3",
+      "number": 710,
+      "url": "https://github.com/microsoft/winappCli/issues/710",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-05T17:16:44Z",
+      "author": "niels9001",
+      "assignee": "niels9001",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "samples"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Consolidate XAML server publish and payload validation",
+      "number": 165,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/165",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-05T02:43:30Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Share canonical path-boundary helpers for XAML services",
+      "number": 164,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/164",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-05T02:43:30Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
       "title": "[Docs]: Refresh the E2E test inventory",
       "number": 160,
       "url": "https://github.com/microsoft/WinAppVSCE/issues/160",
@@ -4955,7 +5774,7 @@
       "labels": [
         "enhancement"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "IntelliSense: add per-document analysis cache to avoid redundant XML parsing",
@@ -4967,7 +5786,8 @@
       "assignee": "Unassigned",
       "labels": [
         "enhancement",
-        "performance"
+        "performance",
+        "hold-fix"
       ],
       "state": "open"
     },
@@ -4991,7 +5811,7 @@
       "repo": "microsoft/WinAppVSCE",
       "createdAt": "2026-07-30T22:35:12Z",
       "author": "chiaramooney",
-      "assignee": "Unassigned",
+      "assignee": "chiaramooney",
       "labels": [
         "enhancement"
       ],
@@ -5004,7 +5824,7 @@
       "repo": "microsoft/WinAppVSCE",
       "createdAt": "2026-07-30T22:35:02Z",
       "author": "chiaramooney",
-      "assignee": "Unassigned",
+      "assignee": "chiaramooney",
       "labels": [
         "enhancement"
       ],
@@ -5021,7 +5841,7 @@
       "labels": [
         "bug"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "CI supply-chain risk: unpinned CLI download with GH_TOKEN exposure",
@@ -5035,7 +5855,7 @@
         "bug",
         "security"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "[Feature]: find-ui is unusable behind proxies and in agent sandboxes (raw.githubusercontent.com blocked) — bake and embed the corpus",
@@ -5044,7 +5864,7 @@
       "repo": "microsoft/WinAppCli",
       "createdAt": "2026-07-30T21:49:59Z",
       "author": "nmetulev",
-      "assignee": "Unassigned",
+      "assignee": "Jaylyn-Barbee",
       "labels": [
         "enhancement",
         "cli"
@@ -5058,7 +5878,7 @@
       "repo": "microsoft/WinAppCli",
       "createdAt": "2026-07-30T21:26:52Z",
       "author": "nmetulev",
-      "assignee": "Unassigned",
+      "assignee": "Jaylyn-Barbee",
       "labels": [
         "enhancement"
       ],
@@ -5114,7 +5934,7 @@
       "labels": [
         "enhancement"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "[Feature]: Add agent-readable frame artifacts to ui record",
@@ -5128,7 +5948,7 @@
         "enhancement",
         "ui-automation"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "[Feature]: Add first-class native picker actions to winapp ui",
@@ -5167,7 +5987,7 @@
       "labels": [
         "tech-debt"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "[Bug]: Unclosed element doesn't show parse error",
@@ -5180,7 +6000,7 @@
       "labels": [
         "bug"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "[Bug]: Deleting required field in manifest should show warning",
@@ -5193,7 +6013,7 @@
       "labels": [
         "bug"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "[Bug]: rescap shows as unknown",
@@ -5206,7 +6026,7 @@
       "labels": [
         "bug"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Add integration tests for XAML Language Server client/extension wiring",
@@ -5234,7 +6054,7 @@
         "bug",
         "debugger"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Add \"Open launch.json\" action button to inputFolder validation errors",
@@ -5247,7 +6067,7 @@
       "labels": [
         "enhancement"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Docs: inputFolder description doesn't document validation behavior",
@@ -5260,7 +6080,7 @@
       "labels": [
         "documentation"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "UX: Surface persistent banner when schema validation is unavailable",
@@ -5271,7 +6091,8 @@
       "author": "chiaramooney",
       "assignee": "Unassigned",
       "labels": [
-        "enhancement"
+        "enhancement",
+        "hold-fix"
       ],
       "state": "open"
     },
@@ -5282,11 +6103,12 @@
       "repo": "microsoft/WinAppVSCE",
       "createdAt": "2026-07-24T18:25:30Z",
       "author": "chiaramooney",
-      "assignee": "Unassigned",
+      "assignee": "chiaramooney",
       "labels": [
-        "enhancement"
+        "enhancement",
+        "intellisense"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Security: Scope webview localResourceRoots to manifest package root only",
@@ -5308,11 +6130,11 @@
       "repo": "microsoft/WinAppVSCE",
       "createdAt": "2026-07-24T18:25:10Z",
       "author": "chiaramooney",
-      "assignee": "Unassigned",
+      "assignee": "chiaramooney",
       "labels": [
         "enhancement"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Refactor: Consider DOM-backed XML context detection for IntelliSense",
@@ -5335,12 +6157,12 @@
       "repo": "microsoft/WinAppVSCE",
       "createdAt": "2026-07-24T18:00:21Z",
       "author": "chiaramooney",
-      "assignee": "Unassigned",
+      "assignee": "chiaramooney",
       "labels": [
         "enhancement",
         "tech-debt"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Refactor: Extract shared pattern-type inheritance resolver",
@@ -5349,12 +6171,12 @@
       "repo": "microsoft/WinAppVSCE",
       "createdAt": "2026-07-24T18:00:21Z",
       "author": "chiaramooney",
-      "assignee": "Unassigned",
+      "assignee": "chiaramooney",
       "labels": [
         "enhancement",
         "tech-debt"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "test: add unit coverage for pickSignableFile/pickCertificateFile Browse and zero-results dialog branches",
@@ -5363,6 +6185,1010 @@
       "repo": "microsoft/WinAppVSCE",
       "createdAt": "2026-07-23T23:33:13Z",
       "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Explore PE header-based architecture detection for pack command",
+      "number": 99,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/99",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T19:53:22Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "test: add E2E coverage for certificate QuickPick flow",
+      "number": 98,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/98",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:45:23Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] createDebugIdentity uses file picker but driver assumes folder picker",
+      "number": 96,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/96",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:14:27Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Driver executeCommand fire-and-forget means r.done is unreliable for success gating",
+      "number": 95,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/95",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:14:27Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Smoke test scripts don't exit non-zero on assertion failures",
+      "number": 94,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/94",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:14:27Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Debug prompt handler runs unawaited, causing potential race with next queue step",
+      "number": 92,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/92",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:06:22Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Campaign still uses legacy one-shot driver instead of validated queue helpers",
+      "number": 91,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/91",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:06:22Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Smoke tests only cover certGenerate; no coverage for pack/debug flows",
+      "number": 90,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/90",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:06:22Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "agent-skill"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[vsce-testing] Driver extension commands missing category and lack error feedback",
+      "number": 89,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/89",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:06:22Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Workspace trust unconditionally disabled in VS Code drive sessions",
+      "number": 88,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/88",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:06:22Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Queue poller permanently drops partially-written request files",
+      "number": 87,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/87",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:06:21Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[vsce-testing] Driver extension queue accepts arbitrary commands/paths — unauthenticated local RPC surface",
+      "number": 86,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/86",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:06:21Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "enhancement",
+        "agent-skill"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[vsce-testing] Fallback project discovery can pick wrong .csproj in multi-project workspaces",
+      "number": 85,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/85",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:06:21Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "test: add coverage for post-pack Sign action path in signPackage",
+      "number": 83,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/83",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:00:29Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "sign: thread CancellationToken into findWorkspaceArtifacts for true early exit",
+      "number": 82,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/82",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T18:00:29Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "pack: arch detection false positives from ancestor path segments",
+      "number": 81,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/81",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T17:58:48Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "test: getMachineArch 'unknown' fallback branch lacks coverage",
+      "number": 80,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/80",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T17:58:48Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "test: add E2E coverage for sign QuickPick Browse and cancel paths",
+      "number": 79,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/79",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T17:57:15Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "refactor: consolidate artifact type definitions into a shared module",
+      "number": 78,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/78",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T17:57:15Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "sign: QuickPick only discovers MSIX packages, not executables",
+      "number": 77,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/77",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T17:46:36Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "docs: update README sign command description to reflect QuickPick behavior",
+      "number": 76,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/76",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T17:46:36Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "sign: consider using vscode.workspace.findFiles instead of glob for artifact discovery",
+      "number": 75,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/75",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-22T17:46:36Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Refactor: Replace shell-string CLI launching with arg-array pattern",
+      "number": 73,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/73",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-21T01:40:33Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Refactor: Replace regex-based extension-field parsing with shared DOM-based walker",
+      "number": 72,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/72",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-21T01:40:23Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Security: Webview copyToAssets trusts unvalidated image paths from webview messages",
+      "number": 71,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/71",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-21T01:40:14Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "security"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Support C++ (.vcxproj) projects in `winapp run` with clear prerequisite guidance",
+      "number": 680,
+      "url": "https://github.com/microsoft/winappCli/issues/680",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-20T23:45:37Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "IntelliSense: support non-file URIs and parse substitution groups from XSD",
+      "number": 70,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/70",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-20T23:44:35Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Consolidate XML parsing utilities between manifest-editor and manifest-intellisense",
+      "number": 69,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/69",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-20T23:34:20Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "tech-debt"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Consider narrowing IntelliSense activation event from onLanguage:xml",
+      "number": 67,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/67",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-20T20:31:59Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "find-ui: add common control-combination patterns to core patterns",
+      "number": 679,
+      "url": "https://github.com/microsoft/winappCli/issues/679",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-20T19:25:04Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: MSIX Bundle version doesn't match the MSIX versions",
+      "number": 677,
+      "url": "https://github.com/microsoft/winappCli/issues/677",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-20T13:37:18Z",
+      "author": "CarlosNihelton",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp run fails slow on incompatible --no-launch + unpackaged app (rejects only after building)",
+      "number": 676,
+      "url": "https://github.com/microsoft/winappCli/issues/676",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-18T03:20:34Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: `--symbols` is silently ignored when `--debug-output` is not passed",
+      "number": 662,
+      "url": "https://github.com/microsoft/winappCli/issues/662",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T19:07:30Z",
+      "author": "zateutsch",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Inconsistent out-of-window coordinate validation across `ui` input verbs (touch/pen reject, click/drag/hover/scroll accept)",
+      "number": 661,
+      "url": "https://github.com/microsoft/winappCli/issues/661",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T19:06:42Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `run --debug-output --json` fails silently — exit 1 with no output (no message, no JSON error)",
+      "number": 659,
+      "url": "https://github.com/microsoft/winappCli/issues/659",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T19:05:32Z",
+      "author": "zateutsch",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp ui send-keys` `\\n` escape in `text=` is silently dropped while `\\r` works correctly",
+      "number": 658,
+      "url": "https://github.com/microsoft/winappCli/issues/658",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T18:54:02Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp ui send-keys --via send-input` silently drops characters when sending long text",
+      "number": 657,
+      "url": "https://github.com/microsoft/winappCli/issues/657",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T18:54:02Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp ui send-keys` reports success for `ctrl+alt+del` with `--allow-system-keys` but Windows always blocks it",
+      "number": 656,
+      "url": "https://github.com/microsoft/winappCli/issues/656",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T18:39:21Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: `winapp ui send-keys --via post-message` reports success but delivers no input to target controls",
+      "number": 655,
+      "url": "https://github.com/microsoft/winappCli/issues/655",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T18:37:17Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Revert NuGet-client migration (#629/#647) — ADO main builds failing on prerelease NuGet.* from non-nuget.org feed",
+      "number": 653,
+      "url": "https://github.com/microsoft/winappCli/issues/653",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T18:21:00Z",
+      "author": "azchohfi",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Port `winmd` (lexical Windows API metadata search) into `winapp`",
+      "number": 652,
+      "url": "https://github.com/microsoft/winappCli/issues/652",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T13:10:50Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Port `winui-search` (lexical UI control/sample search) into `winapp`",
+      "number": 651,
+      "url": "https://github.com/microsoft/winappCli/issues/651",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-16T13:10:48Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "pack: show a completion notification with Reveal/Sign/Install actions for the built MSIX",
+      "number": 62,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/62",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-15T20:37:07Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "ui record: element-scoped recording of windowed popups (XAML flyouts/teaching tips) captures the underlying window",
+      "number": 646,
+      "url": "https://github.com/microsoft/winappCli/issues/646",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-15T19:24:20Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "ui-automation"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Visual Studio WinUI designer extension on the shared design-time protocol",
+      "number": 61,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/61",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-15T07:07:09Z",
+      "author": "nmetulev",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: winapp run --devtools: in-app inspector and shared design-time protocol",
+      "number": 636,
+      "url": "https://github.com/microsoft/winappCli/issues/636",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-15T07:07:07Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": [
+        "enhancement",
+        "dotnet",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: winapp run --watch: WinUI C#/XAML hot reload",
+      "number": 635,
+      "url": "https://github.com/microsoft/winappCli/issues/635",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-15T07:07:05Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": [
+        "enhancement",
+        "dotnet",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Surface WinUI analyzer diagnostics during winapp run project builds",
+      "number": 634,
+      "url": "https://github.com/microsoft/winappCli/issues/634",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-15T07:07:04Z",
+      "author": "nmetulev",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "dotnet",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Project-mode support for winapp run (build and launch from a .csproj)",
+      "number": 633,
+      "url": "https://github.com/microsoft/winappCli/issues/633",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-15T07:06:16Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "dotnet",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Code coverage metric is misleading — generated interop code dominates the denominator",
+      "number": 630,
+      "url": "https://github.com/microsoft/winappCli/issues/630",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-15T03:51:31Z",
+      "author": "azchohfi",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Agents and Skills Exposed to GHC",
+      "number": 60,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/60",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-14T23:36:24Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Visual Tree & Property Editor",
+      "number": 59,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/59",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-14T23:31:35Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Hot Reload for WinUI",
+      "number": 58,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/58",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-14T23:12:31Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: MSLearn pipeline does not have the correct credentials to push",
+      "number": 627,
+      "url": "https://github.com/microsoft/winappCli/issues/627",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-14T19:42:15Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: XAML Designer",
+      "number": 56,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/56",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-14T17:39:47Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: XAML Visualizer",
+      "number": 54,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/54",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-14T17:11:45Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: `winapp find-api` — semantic search for Windows APIs",
+      "number": 626,
+      "url": "https://github.com/microsoft/winappCli/issues/626",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-14T13:38:32Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: `winapp find-ui` — semantic search for UI controls, samples & docs",
+      "number": 625,
+      "url": "https://github.com/microsoft/winappCli/issues/625",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-14T13:21:48Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: XAML Language Server",
+      "number": 52,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/52",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-13T23:37:10Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: AppxManifest IntelliSense Support",
+      "number": 51,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/51",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-13T22:55:04Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Follow-up from #620: automate coverage for the put_accValue (LegacyIAccessible) set-value success path",
+      "number": 623,
+      "url": "https://github.com/microsoft/winappCli/issues/623",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-13T21:20:40Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: winapp ui set-value fails on RichEditBox / TextPattern-only edit controls (no ValuePattern fallback)",
+      "number": 620,
+      "url": "https://github.com/microsoft/winappCli/issues/620",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-13T18:39:56Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Arguments starting with \"@\" are swallowed by response-file expansion (e.g. winapp ui search \"@assistant\")",
+      "number": 619,
+      "url": "https://github.com/microsoft/winappCli/issues/619",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-13T18:39:56Z",
+      "author": "nmetulev",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: `winapp new` command to scaffold new projects",
+      "number": 609,
+      "url": "https://github.com/microsoft/winappCli/issues/609",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-09T17:22:27Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "WinApp debugger: startDebugging returns false even when the app launches successfully",
+      "number": 40,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/40",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:52Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "debugger"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Replace native OS dialogs with in-editor QuickPicks and add progress UI for long operations",
+      "number": 39,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/39",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:50Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack warns about the devcert.pfx that certGenerate itself created",
+      "number": 38,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/38",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:48Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "sign: default to the just-packed MSIX instead of a native file picker into a hidden folder",
+      "number": 37,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/37",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:46Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack: remember QuickPick choices and surface/verify target architecture",
+      "number": 36,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/36",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:44Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack: surface the built MSIX (rename + visible folder + completion notification) instead of burying it",
+      "number": 35,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/35",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:43Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "certGenerate reports 'Access denied' as failure even though the cert is generated (elevation)",
+      "number": 34,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/34",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:31Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "F5 silently falls back to a native folder picker when launch.json inputFolder is invalid",
+      "number": 33,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/33",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:28Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "debugger"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "F5/WinApp debugger has an undeclared dependency on the C# extension (first-run failure)",
+      "number": 32,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/32",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:26Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "debugger"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack: auto-resolve the build-output folder instead of a native picker defaulting to the wrong folder",
+      "number": 31,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/31",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-07-08T15:49:24Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: winapp ui inspect --json serializes nested children as strings, not JSON arrays",
+      "number": 608,
+      "url": "https://github.com/microsoft/winappCli/issues/608",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-08T12:22:02Z",
+      "author": "LegendaryBlair",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Resolve and print tool paths with `tool` command",
+      "number": 604,
+      "url": "https://github.com/microsoft/winappCli/issues/604",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-07-06T17:17:58Z",
+      "author": "zateutsch",
       "assignee": "Unassigned",
       "labels": [
         "enhancement"
@@ -7382,6 +9208,16 @@
     }
   ],
   "releases": [
+    {
+      "name": "Release v0.5.0",
+      "tagName": "v0.5.0",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.5.0",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-07-20T18:27:30Z",
+      "author": "azchohfi",
+      "prerelease": false,
+      "body": "Version: `0.5.0`\r\nCommit: `fd7cb6f235fa54dd2c6e26386e65e967a2c8797a`\r\n\r\n## New Features\r\n- **Add `ui record` command for MP4 capture** (#599) — Users can now record app interactions and output them as MP4 files, enhancing the ability to create tutorials and demos directly from winapp CLI.\r\n- **Add `ui touch` and `ui pen` commands** (#600) — New commands allow for simulation of touch and pen inputs, making it easier to automate scenarios for touch-enabled applications.\r\n- **Add `--allow-system-ke"
+    },
     {
       "name": "Release v0.4.0",
       "tagName": "v0.4.0",
