@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T08:17:27.652Z",
+  "generatedAt": "2026-08-05T08:14:57.464Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -28,9 +28,245 @@
     "2026-07-29",
     "2026-07-30",
     "2026-08-02",
-    "2026-08-03"
+    "2026-08-03",
+    "2026-08-04"
   ],
   "closedIssues": [
+    {
+      "title": "sign: QuickPick only discovers MSIX packages, not executables",
+      "number": 77,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/77",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T23:29:23Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Add \"Open launch.json\" action button to inputFolder validation errors",
+      "number": 111,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/111",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T23:28:47Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Deleting required field in manifest should show warning",
+      "number": 125,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/125",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T21:54:00Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: Unclosed element doesn't show parse error",
+      "number": 126,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/126",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T21:53:57Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Tech Debt] Consolidate manifest file detection into a shared helper",
+      "number": 127,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/127",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T21:51:19Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "tech-debt"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "CI supply-chain risk: unpinned CLI download with GH_TOKEN exposure",
+      "number": 129,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/129",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T21:50:06Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug",
+        "security"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "VSIX can ship without bundled CLI binaries; CI doesn't exercise release packaging",
+      "number": 130,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/130",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T21:46:41Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "IntelliSense: validate element text content against XSD simple types",
+      "number": 135,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/135",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T21:37:12Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature] Add sparse packaging support (winapp sparse command group)",
+      "number": 286,
+      "url": "https://github.com/microsoft/winappCli/issues/286",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-08-04T19:58:20Z",
+      "assignee": "zateutsch",
+      "labels": [
+        "enhancement",
+        "cli"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Security: Add integrity verification for NuGet fallback downloads in sync-schemas",
+      "number": 108,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/108",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T18:24:56Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "intellisense"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Feature: Validate element text content against XSD simple types",
+      "number": 106,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/106",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T18:24:55Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: rescap shows as unknown",
+      "number": 124,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/124",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T18:24:54Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Refactor: Extract shared isManifestPath helper",
+      "number": 104,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/104",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T18:24:54Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "tech-debt"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Refactor: Extract shared pattern-type inheritance resolver",
+      "number": 103,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/103",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T18:24:53Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "tech-debt"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "IntelliSense: support non-file URIs and parse substitution groups from XSD",
+      "number": 70,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/70",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T18:24:53Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: AppxManifest IntelliSense Support",
+      "number": 51,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/51",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T18:24:53Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Docs: inputFolder description doesn't document validation behavior",
+      "number": 110,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/110",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T17:52:44Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Feature]: Add agent-readable frame artifacts to ui record",
+      "number": 689,
+      "url": "https://github.com/microsoft/winappCli/issues/689",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-08-04T17:44:30Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement",
+        "ui-automation"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "pack: auto-resolve the build-output folder instead of a native picker defaulting to the wrong folder",
+      "number": 31,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/31",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-04T16:43:51Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement",
+        "command-palette"
+      ],
+      "state": "closed"
+    },
     {
       "title": "Relative workingDirectory in launch.json resolves against extension host cwd, not workspace",
       "number": 112,
@@ -2601,6 +2837,159 @@
   ],
   "mergedPRs": [
     {
+      "title": "Secure SDK tool argument execution",
+      "number": 158,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/158",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-04T23:41:58Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Add winapp-maui skill for the MAUI resizetizer manifest dependency",
+      "number": 610,
+      "url": "https://github.com/microsoft/winappCli/pull/610",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T23:36:46Z",
+      "author": "pictos",
+      "assignee": "pictos",
+      "labels": []
+    },
+    {
+      "title": "sign: discover executables and libraries in QuickPick",
+      "number": 161,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/161",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-04T23:29:22Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Add debug configuration action for inputFolder errors",
+      "number": 162,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/162",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-04T23:28:46Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Unify Copilot and Claude skills into a single shared plugin",
+      "number": 631,
+      "url": "https://github.com/microsoft/winappCli/pull/631",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T22:51:42Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Add support for sparse packaging workflows",
+      "number": 607,
+      "url": "https://github.com/microsoft/winappCli/pull/607",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T19:58:19Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
+      "title": "Add Node.js sample using a native WinUI 3 Application and Window",
+      "number": 624,
+      "url": "https://github.com/microsoft/winappCli/pull/624",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T19:10:20Z",
+      "author": "lei9444",
+      "assignee": "lei9444",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Bump the github-actions group with 8 updates",
+      "number": 709,
+      "url": "https://github.com/microsoft/winappCli/pull/709",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T18:53:02Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ]
+    },
+    {
+      "title": "feat: Add AppxManifest IntelliSense with XSD schema support",
+      "number": 68,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/68",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-04T18:24:52Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Pin GitHub Actions to full-length commit SHAs",
+      "number": 707,
+      "url": "https://github.com/microsoft/winappCli/pull/707",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T18:14:19Z",
+      "author": "OssSecurityBot",
+      "assignee": "OssSecurityBot",
+      "labels": []
+    },
+    {
+      "title": "Bump the npm_and_yarn group across 2 directories with 2 updates",
+      "number": 708,
+      "url": "https://github.com/microsoft/winappCli/pull/708",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T18:13:51Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Add agent-readable UI recording artifacts",
+      "number": 690,
+      "url": "https://github.com/microsoft/winappCli/pull/690",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T17:44:29Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Bump the npm_and_yarn group across 2 directories with 2 updates",
+      "number": 706,
+      "url": "https://github.com/microsoft/winappCli/pull/706",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-04T17:43:52Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "build(deps): combine August Dependabot updates",
+      "number": 142,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/142",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-04T16:44:13Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
       "title": "Resolve relative launch.json workingDirectory against the workspace folder",
       "number": 116,
       "url": "https://github.com/microsoft/WinAppVSCE/pull/116",
@@ -4361,6 +4750,200 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "[Docs]: Refresh the E2E test inventory",
+      "number": 160,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/160",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T21:50:09Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Remove GH_TOKEN before executing downloaded WinApp CLI",
+      "number": 159,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/159",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T21:49:57Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: E2E inventory counts drift from Playwright discovery",
+      "number": 156,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/156",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T20:58:07Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Bug]: Browse E2E does not verify native file selection",
+      "number": 155,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/155",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T20:58:07Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Docs]: Reconcile E2E inventory with Playwright discovery",
+      "number": 154,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/154",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T19:33:50Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Test: Add VS Code integration tests for completion/hover provider registration",
+      "number": 153,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/153",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:18:21Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Bug: Form editor replaces CDATA sections with escaped text on save",
+      "number": 152,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/152",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:18:19Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Bug: Form editor cannot independently edit repeated sibling elements (e.g. multiple FileType entries)",
+      "number": 151,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/151",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:18:17Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: sign: cap package discovery without losing newest-first ordering",
+      "number": 150,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/150",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:15:38Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Test: Add diagnostics provider lifecycle coverage",
+      "number": 149,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/149",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:09:13Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "Refactor: Extract shared validation predicates from manifest-validator.ts",
+      "number": 148,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/148",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:09:12Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "Build: Remove PATH fallback in sync-schemas.ps1 CLI resolution",
+      "number": 147,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/147",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:09:10Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "UX: Add one-time guard for manifest editor promotion notification",
+      "number": 146,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/146",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:09:09Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "UX: Consolidate feature naming across commands, notifications, and docs",
+      "number": 145,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/145",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:09:08Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "Enhancement: Enforce maxOccurs and xs:choice exclusivity in schema validation",
+      "number": 144,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/144",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:09:07Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "[Docs]: Decide whether to document programmatic winapp.tool invocation",
+      "number": 143,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/143",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-04T18:08:47Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "open"
+    },
     {
       "title": "IntelliSense: validate element text content against XSD simple types",
       "number": 135,
