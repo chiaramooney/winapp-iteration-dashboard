@@ -76,6 +76,28 @@ function monthBounds(key) {
   return { start, end };
 }
 
+function availableMonths() {
+  const months = new Set(DATA.months || []);
+  const days = new Set(DATA.collectedDays || []);
+
+  for (const day of days) {
+    const month = day.slice(0, 7);
+    const { start, end } = monthBounds(month);
+    let isComplete = true;
+
+    for (let date = new Date(start); date <= end; date.setDate(date.getDate() + 1)) {
+      if (!days.has(isoDay(date))) {
+        isComplete = false;
+        break;
+      }
+    }
+
+    if (isComplete) months.add(month);
+  }
+
+  return Array.from(months).sort().reverse();
+}
+
 function inRange(dateStr, start, end) {
   const t = new Date(dateStr).getTime();
   return t >= start.getTime() && t <= end.getTime();
@@ -276,7 +298,7 @@ function selectMonth(key) {
 
 function setupControls() {
   const preset = document.getElementById("preset");
-  const months = (DATA.months || []).slice().sort().reverse();
+  const months = availableMonths();
 
   preset.innerHTML =
     months.map((k) => `<option value="${k}">${monthLabel(k)}</option>`).join("") +

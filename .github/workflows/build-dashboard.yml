@@ -4,13 +4,13 @@ on:
   push:
     branches: [main]
   schedule:
-    # 06:00 UTC every day — collects the previous day's data.
+    # 06:00 UTC every day — refreshes the current and previous calendar months.
     - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
       dates:
         description: >-
-          Date(s) to fetch. Leave blank for yesterday (default).
+          Date(s) to fetch. Leave blank for the current and previous months.
           Use "YYYY-MM-DD" for one day, "YYYY-MM-DD YYYY-MM-DD" for a day range,
           "YYYY-MM" for one month, or "YYYY-MM YYYY-MM" to backfill a month range.
         required: false

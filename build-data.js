@@ -4,7 +4,7 @@
 // viewer selects.
 //
 // Usage:
-//   node build-data.js                     # yesterday (default for daily runs)
+//   node build-data.js                     # current and previous calendar months
 //   node build-data.js 2026-07-22          # a specific day
 //   node build-data.js 2026-07-01 2026-07-22  # every day in the range (backfill)
 //   node build-data.js 2026-06             # a full month
@@ -67,11 +67,18 @@ function dayWindow(date) {
 // Returns an array of { start, end, key } objects.
 function resolveWindows(args) {
   if (args.length === 0) {
-    // Yesterday (default for daily cron).
+    // Refresh the current and previous calendar months so missed daily runs
+    // are repaired automatically.
     const now = new Date();
-    const yesterday = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1);
-    const { start, end } = dayWindow(yesterday);
-    return [{ start, end, key: dayKey(yesterday) }];
+    const previousMonth = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+    const currentMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+    return [previousMonth, currentMonth].map((date) => {
+      const { start, end } = monthWindow({
+        year: date.getFullYear(),
+        month: date.getMonth(),
+      });
+      return { start, end, key: monthKey(date) };
+    });
   }
 
   // Single argument: either a day or a month.
@@ -153,6 +160,27 @@ function mergeArray(existing, incoming, dateField) {
   );
 }
 
+function deriveMonths(months, collectedDays) {
+  const completeMonths = new Set(months);
+  for (const day of collectedDays) {
+    const month = day.slice(0, 7);
+    const { year, month: monthIndex } = parseMonthArg(month);
+    const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+    let isComplete = true;
+
+    for (let dayNumber = 1; dayNumber <= daysInMonth; dayNumber++) {
+      const key = `${month}-${String(dayNumber).padStart(2, "0")}`;
+      if (!collectedDays.has(key)) {
+        isComplete = false;
+        break;
+      }
+    }
+
+    if (isComplete) completeMonths.add(month);
+  }
+  return Array.from(completeMonths).sort();
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const windows = resolveWindows(args);
@@ -187,7 +215,7 @@ async function main() {
     repos: REPOS.map((r) => `${r.owner}/${r.repo}`),
     releaseRepos: RELEASE_REPOS.map((r) => `${r.owner}/${r.repo}`),
     projectNumber: PROJECT_NUMBER,
-    months: Array.from(collectedMonths).sort(),
+    months: deriveMonths(collectedMonths, collectedDays),
     collectedDays: Array.from(collectedDays).sort(),
     closedIssues: data.closedIssues,
     mergedPRs: data.mergedPRs,
