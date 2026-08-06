@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T17:53:44.724Z",
+  "generatedAt": "2026-08-06T08:13:52.400Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -34,6 +34,50 @@
     "2026-08-04"
   ],
   "closedIssues": [
+    {
+      "title": "Refactor: Extract shared validation predicates from manifest-validator.ts",
+      "number": 148,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/148",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-05T20:52:09Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "UX: Add one-time guard for manifest editor promotion notification",
+      "number": 146,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/146",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-05T20:48:30Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[Docs]: Reconcile E2E inventory with Playwright discovery",
+      "number": 154,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/154",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-05T20:46:46Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "documentation"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[Bug]: E2E inventory counts drift from Playwright discovery",
+      "number": 156,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/156",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-05T20:46:28Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "closed"
+    },
     {
       "title": "[Feature]: Support hosted cross-process UIA targeting",
       "number": 691,
@@ -3368,6 +3412,16 @@
   ],
   "mergedPRs": [
     {
+      "title": "Pin npm packages available through CFS",
+      "number": 169,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/169",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-05T21:26:39Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
       "title": "Secure SDK tool argument execution",
       "number": 158,
       "url": "https://github.com/microsoft/WinAppVSCE/pull/158",
@@ -5486,6 +5540,30 @@
   ],
   "newIssues": [
     {
+      "title": "Manifest editor exposes arbitrary local file existence through checkImagePath",
+      "number": 167,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/167",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-05T20:45:37Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "[Feature]: Create Script to Cherry Pick Patch Fixes into a Release",
+      "number": 714,
+      "url": "https://github.com/microsoft/winappCli/issues/714",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-05T18:55:54Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
+    {
       "title": "[Docs]: Replace applicable UWP sample references with migrated WinUI 3 samples",
       "number": 713,
       "url": "https://github.com/microsoft/winappCli/issues/713",
@@ -5604,7 +5682,7 @@
       "labels": [
         "bug"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "[Bug]: Browse E2E does not verify native file selection",
@@ -5630,7 +5708,7 @@
       "labels": [
         "documentation"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Test: Add VS Code integration tests for completion/hover provider registration",
@@ -5704,7 +5782,7 @@
       "author": "chiaramooney",
       "assignee": "Unassigned",
       "labels": [],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Build: Remove PATH fallback in sync-schemas.ps1 CLI resolution",
@@ -5726,7 +5804,7 @@
       "author": "chiaramooney",
       "assignee": "Unassigned",
       "labels": [],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "UX: Consolidate feature naming across commands, notifications, and docs",
