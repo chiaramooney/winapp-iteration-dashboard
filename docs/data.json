@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T08:13:52.400Z",
+  "generatedAt": "2026-08-07T06:59:08.922Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -34,6 +34,85 @@
     "2026-08-04"
   ],
   "closedIssues": [
+    {
+      "title": "Open Manifest Editor command is hard to discover from Command Palette",
+      "number": 132,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/132",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-06T21:47:28Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "Security: Webview copyToAssets trusts unvalidated image paths from webview messages",
+      "number": 71,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/71",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-06T21:44:38Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "bug",
+        "security"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[find-ui] --json is not consistently machine-readable on parser errors",
+      "number": 719,
+      "url": "https://github.com/microsoft/winappCli/issues/719",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-08-06T20:59:48Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[find-ui] Clarify and normalize case sensitivity for --id matching",
+      "number": 718,
+      "url": "https://github.com/microsoft/winappCli/issues/718",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-08-06T20:59:45Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "sign: thread CancellationToken into findWorkspaceArtifacts for true early exit",
+      "number": 82,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/82",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-06T20:44:32Z",
+      "assignee": "chiaramooney",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "sign: consider using vscode.workspace.findFiles instead of glob for artifact discovery",
+      "number": 75,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/75",
+      "repo": "microsoft/WinAppVSCE",
+      "closedAt": "2026-08-06T20:44:32Z",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
+    {
+      "title": "[find-ui] --refresh silently falls back to stale cache when GitHub is unavailable",
+      "number": 717,
+      "url": "https://github.com/microsoft/winappCli/issues/717",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-08-06T20:29:32Z",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
     {
       "title": "Refactor: Extract shared validation predicates from manifest-validator.ts",
       "number": 148,
@@ -3412,6 +3491,76 @@
   ],
   "mergedPRs": [
     {
+      "title": "Make winapp-pr usable immediately after -AddToPath",
+      "number": 720,
+      "url": "https://github.com/microsoft/winappCli/pull/720",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-07T04:03:15Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Improve manifest editor command discovery",
+      "number": 170,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/170",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-06T21:47:27Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Fix untrusted manifest webview asset copying",
+      "number": 168,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/168",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-06T21:44:37Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Run E2E tests in PR and release pipelines",
+      "number": 166,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/166",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-06T20:45:09Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Improve VS Code driver command argument transport",
+      "number": 163,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/163",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-06T20:44:51Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
+      "title": "Use cancellable VS Code search for signing artifacts",
+      "number": 157,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/157",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-06T20:44:31Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": [
+        "pr-review-completed"
+      ]
+    },
+    {
       "title": "Pin npm packages available through CFS",
       "number": 169,
       "url": "https://github.com/microsoft/WinAppVSCE/pull/169",
@@ -5540,6 +5689,50 @@
   ],
   "newIssues": [
     {
+      "title": "[find-ui] --json is not consistently machine-readable on parser errors",
+      "number": 719,
+      "url": "https://github.com/microsoft/winappCli/issues/719",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-06T20:30:40Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[find-ui] Clarify and normalize case sensitivity for --id matching",
+      "number": 718,
+      "url": "https://github.com/microsoft/winappCli/issues/718",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-06T20:22:54Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[find-ui] --refresh silently falls back to stale cache when GitHub is unavailable",
+      "number": 717,
+      "url": "https://github.com/microsoft/winappCli/issues/717",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-06T20:22:53Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "closed"
+    },
+    {
+      "title": "[find-ui] Allow users to retrieve untruncated, paste-ready samples with --id",
+      "number": 716,
+      "url": "https://github.com/microsoft/winappCli/issues/716",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-06T20:22:52Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
       "title": "Manifest editor exposes arbitrary local file existence through checkImagePath",
       "number": 167,
       "url": "https://github.com/microsoft/WinAppVSCE/issues/167",
@@ -5893,7 +6086,7 @@
       "labels": [
         "enhancement"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Test coverage gaps: diagnostics lifecycle, save-flush, image-path, nested properties",
@@ -6465,7 +6658,7 @@
       "labels": [
         "enhancement"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "pack: arch detection false positives from ancestor path segments",
@@ -6557,7 +6750,7 @@
       "labels": [
         "enhancement"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "Refactor: Replace shell-string CLI launching with arg-array pattern",
@@ -6597,7 +6790,7 @@
         "bug",
         "security"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "[Feature]: Support C++ (.vcxproj) projects in `winapp run` with clear prerequisite guidance",
