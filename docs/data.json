@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T06:59:08.922Z",
+  "generatedAt": "2026-08-08T06:32:53.306Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -34,6 +34,18 @@
     "2026-08-04"
   ],
   "closedIssues": [
+    {
+      "title": "[Feature]: Port `winui-search` (lexical UI control/sample search) into `winapp`",
+      "number": 651,
+      "url": "https://github.com/microsoft/winappCli/issues/651",
+      "repo": "microsoft/WinAppCli",
+      "closedAt": "2026-08-07T17:50:49Z",
+      "assignee": "Jaylyn-Barbee",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "closed"
+    },
     {
       "title": "Open Manifest Editor command is hard to discover from Command Palette",
       "number": 132,
@@ -3490,6 +3502,52 @@
     }
   ],
   "mergedPRs": [
+    {
+      "title": "feat: add winapp find-ui — WinUI control & sample search (Gallery + Toolkit + Reactor)",
+      "number": 681,
+      "url": "https://github.com/microsoft/winappCli/pull/681",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-07T17:50:48Z",
+      "author": "Jaylyn-Barbee",
+      "assignee": "Jaylyn-Barbee",
+      "labels": []
+    },
+    {
+      "title": "[s360-breeze-toolkit: SFI-ES-4.2.4] Use internal npm feed in Azure Pipelines",
+      "number": 715,
+      "url": "https://github.com/microsoft/winappCli/pull/715",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-07T17:22:42Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": [
+        "s360-toolkit",
+        "SFI:ES-4.2.4"
+      ]
+    },
+    {
+      "title": "Add winapp-pr -Uninstall and bound the download cache",
+      "number": 721,
+      "url": "https://github.com/microsoft/winappCli/pull/721",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-07T16:25:14Z",
+      "author": "nmetulev",
+      "assignee": "nmetulev",
+      "labels": []
+    },
+    {
+      "title": "Bump the npm_and_yarn group across 2 directories with 1 update",
+      "number": 722,
+      "url": "https://github.com/microsoft/winappCli/pull/722",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-07T16:23:57Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
     {
       "title": "Make winapp-pr usable immediately after -AddToPath",
       "number": 720,
@@ -7006,7 +7064,7 @@
       "labels": [
         "enhancement"
       ],
-      "state": "open"
+      "state": "closed"
     },
     {
       "title": "pack: show a completion notification with Reveal/Sign/Install actions for the built MSIX",
