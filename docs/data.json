@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T06:45:34.173Z",
+  "generatedAt": "2026-08-12T07:06:34.205Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -3540,6 +3540,92 @@
   ],
   "mergedPRs": [
     {
+      "title": "Bump the npm group across 1 directory with 5 updates (typescript held at 5.x)",
+      "number": 733,
+      "url": "https://github.com/microsoft/winappCli/pull/733",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T04:19:01Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "javascript"
+      ]
+    },
+    {
+      "title": "Fix flaky tree-kill test by retrying the PID file read",
+      "number": 732,
+      "url": "https://github.com/microsoft/winappCli/pull/732",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T00:49:12Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Map the remaining winapp run options to MSBuild properties",
+      "number": 731,
+      "url": "https://github.com/microsoft/winappCli/pull/731",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T00:48:47Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Bump the github-actions group across 1 directory with 2 updates",
+      "number": 734,
+      "url": "https://github.com/microsoft/winappCli/pull/734",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-11T23:30:04Z",
+      "author": "dependabot[bot]",
+      "assignee": "dependabot[bot]",
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ]
+    },
+    {
+      "title": "Use -EncodedCommand for the elevated Developer Mode script",
+      "number": 727,
+      "url": "https://github.com/microsoft/winappCli/pull/727",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-11T22:47:52Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Cover NuGet and npm in Dependabot, and use the CodeQL security-extended suite",
+      "number": 728,
+      "url": "https://github.com/microsoft/winappCli/pull/728",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-11T22:47:32Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Show folder-mode discovery breadcrumb only at debug verbosity",
+      "number": 730,
+      "url": "https://github.com/microsoft/winappCli/pull/730",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-11T22:47:07Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Invoke the CLI directly instead of building command strings in package-msix.ps1",
+      "number": 725,
+      "url": "https://github.com/microsoft/winappCli/pull/725",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-11T21:44:57Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
       "title": "`winapp new` command",
       "number": 686,
       "url": "https://github.com/microsoft/winappCli/pull/686",
@@ -5793,6 +5879,32 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "Flaky test: RunDotnetProcessAsync_Cancellation_KillsProcessTree intermittently fails in CI",
+      "number": 729,
+      "url": "https://github.com/microsoft/winappCli/issues/729",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-11T21:01:08Z",
+      "author": "azchohfi",
+      "assignee": "Unassigned",
+      "labels": [
+        "bug"
+      ],
+      "state": "open"
+    },
+    {
+      "title": "Consolidate XAML markup-extension metadata catalogs",
+      "number": 180,
+      "url": "https://github.com/microsoft/WinAppVSCE/issues/180",
+      "repo": "microsoft/WinAppVSCE",
+      "createdAt": "2026-08-11T18:19:47Z",
+      "author": "chiaramooney",
+      "assignee": "Unassigned",
+      "labels": [
+        "enhancement"
+      ],
+      "state": "open"
+    },
     {
       "title": "[Bug]: NuGet dotnet run support does not forward application arguments",
       "number": 723,
@@ -9597,6 +9709,16 @@
     }
   ],
   "releases": [
+    {
+      "name": "Release v0.6.0",
+      "tagName": "v0.6.0",
+      "url": "https://github.com/microsoft/winappCli/releases/tag/v0.6.0",
+      "repo": "microsoft/WinAppCli",
+      "publishedAt": "2026-08-12T02:16:32Z",
+      "author": "azchohfi",
+      "prerelease": true,
+      "body": "Version: `0.6.0`\r\nCommit: `b7494ed3b324d6e378cb17b477f2b1a9729765d0`\r\n\r\n<!-- Release notes generated using configuration in .github/release.yml at b7494ed3b324d6e378cb17b477f2b1a9729765d0 -->\r\n\r\n## What's Changed\r\n### New Features\r\n* Fix MSIX bundle version generation by @CarlosNihelton in https://github.com/microsoft/winappCli/pull/678\r\n* Add Node.js sample using a native WinUI 3 Application and Window by @lei9444 in https://github.com/microsoft/winappCli/pull/624\r\n### Other Changes\r\n* Bump ver"
+    },
     {
       "name": "Release v0.5.0",
       "tagName": "v0.5.0",
