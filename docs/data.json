@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:06:34.205Z",
+  "generatedAt": "2026-08-13T07:10:51.693Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -3540,6 +3540,78 @@
   ],
   "mergedPRs": [
     {
+      "title": "Invoke build tools directly in sample tests instead of Invoke-Expression",
+      "number": 726,
+      "url": "https://github.com/microsoft/winappCli/pull/726",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T23:32:03Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Add a consolidated security guidance page for developers",
+      "number": 735,
+      "url": "https://github.com/microsoft/winappCli/pull/735",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T23:31:49Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Bump version to 0.6.1 for development",
+      "number": 736,
+      "url": "https://github.com/microsoft/winappCli/pull/736",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T23:31:33Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [
+        "docs-not-needed"
+      ]
+    },
+    {
+      "title": "Open the active manifest directly from the editor title bar button",
+      "number": 181,
+      "url": "https://github.com/microsoft/WinAppVSCE/pull/181",
+      "repo": "microsoft/WinAppVSCE",
+      "mergedAt": "2026-08-12T21:48:28Z",
+      "author": "chiaramooney",
+      "assignee": "chiaramooney",
+      "labels": []
+    },
+    {
+      "title": "Verify build tools are Microsoft-signed before running them",
+      "number": 738,
+      "url": "https://github.com/microsoft/winappCli/pull/738",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T19:08:36Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Remove the thread-pool dependency from the PID-file tests",
+      "number": 737,
+      "url": "https://github.com/microsoft/winappCli/pull/737",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T18:30:03Z",
+      "author": "azchohfi",
+      "assignee": "azchohfi",
+      "labels": []
+    },
+    {
+      "title": "Update nuget network policy for release failure",
+      "number": 740,
+      "url": "https://github.com/microsoft/winappCli/pull/740",
+      "repo": "microsoft/WinAppCli",
+      "mergedAt": "2026-08-12T17:39:43Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": []
+    },
+    {
       "title": "Bump the npm group across 1 directory with 5 updates (typescript held at 5.x)",
       "number": 733,
       "url": "https://github.com/microsoft/winappCli/pull/733",
@@ -5879,6 +5951,28 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "Adopt Agent Plugins 1.0",
+      "number": 742,
+      "url": "https://github.com/microsoft/winappCli/issues/742",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-13T01:47:13Z",
+      "author": "aaronpowell",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
+    {
+      "title": "Improve release to handle failures more gracefully",
+      "number": 741,
+      "url": "https://github.com/microsoft/winappCli/issues/741",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-12T20:51:54Z",
+      "author": "zateutsch",
+      "assignee": "zateutsch",
+      "labels": [],
+      "state": "open"
+    },
     {
       "title": "Flaky test: RunDotnetProcessAsync_Cancellation_KillsProcessTree intermittently fails in CI",
       "number": 729,
@@ -9716,7 +9810,7 @@
       "repo": "microsoft/WinAppCli",
       "publishedAt": "2026-08-12T02:16:32Z",
       "author": "azchohfi",
-      "prerelease": true,
+      "prerelease": false,
       "body": "Version: `0.6.0`\r\nCommit: `b7494ed3b324d6e378cb17b477f2b1a9729765d0`\r\n\r\n<!-- Release notes generated using configuration in .github/release.yml at b7494ed3b324d6e378cb17b477f2b1a9729765d0 -->\r\n\r\n## What's Changed\r\n### New Features\r\n* Fix MSIX bundle version generation by @CarlosNihelton in https://github.com/microsoft/winappCli/pull/678\r\n* Add Node.js sample using a native WinUI 3 Application and Window by @lei9444 in https://github.com/microsoft/winappCli/pull/624\r\n### Other Changes\r\n* Bump ver"
     },
     {
