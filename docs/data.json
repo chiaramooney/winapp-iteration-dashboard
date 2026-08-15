@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T07:07:14.621Z",
+  "generatedAt": "2026-08-15T06:19:20.226Z",
   "repos": [
     "microsoft/WinAppCli",
     "microsoft/electron-on-windows-gallery",
@@ -6066,6 +6066,17 @@
     }
   ],
   "newIssues": [
+    {
+      "title": "Feature: Add C++ templates to new command",
+      "number": 758,
+      "url": "https://github.com/microsoft/winappCli/issues/758",
+      "repo": "microsoft/WinAppCli",
+      "createdAt": "2026-08-14T20:31:52Z",
+      "author": "beth-panx",
+      "assignee": "Unassigned",
+      "labels": [],
+      "state": "open"
+    },
     {
       "title": "[Feature]: Limit new command template update check to once a day",
       "number": 754,
